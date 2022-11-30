@@ -677,6 +677,11 @@
       <fonts name="Segoe UI" size="9"/>
     </diagram>
   </testElements>
+  <testElements xsi:type="yest:AutomationConfiguration" id="A5ZIZwv0EUUKLgsCUsVussD7xa5Zm1Ve" name="PublicationCypress" publisherId="com.smartesting.publishers.cypress.CypressEditor">
+    <campaign folders="nNnwRnkmHo8Y9984sHSH3242W2A34Vwx"/>
+    <globalBefore/>
+    <globalAfter/>
+  </testElements>
   <designDataDictionary id="TlV0YuffUPfuEs3uULgd1Ky5BNBI7ElT" name="#designDataDictionary"/>
   <implementationDataDictionary id="ZXb5XKgWn9BIqbGhVYP14E5g8pP0QtO5" name="#implementationDataDictionary"/>
   <dataSetCatalog name="#catalog" id="z66XfVkJ4aREzPC9XztPqHsxqjTvKedU"/>
