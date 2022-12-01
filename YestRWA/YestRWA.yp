@@ -6,7 +6,6 @@
     <flowElements xsi:type="yest:StartPoint" id="CgWE2ZLtMhJoH9sbkB688vaK4qg5NaqJ" name="Début" outgoings="mKYZnX3F8pdwJzzXjUFbcHr5qSpiUaoI"/>
     <flowElements xsi:type="yest:Task" id="M2o5XjdU8mGcqGOijgljZjlq2wijYVNP" name="Accéder à l'application RWA" incomings="mKYZnX3F8pdwJzzXjUFbcHr5qSpiUaoI" outgoings="CzCFFM5ttBAevmBPz6QBySBQ16L7b5Pw">
       <table>
-        <columns xsi:type="yest:DataColumn" id="yqt9u9wbMt8lExL7dvAh4OwKl76cSsaC" data="0qH1JEx8pQn2hHZwdC5YEtGsLg2T6Obt"/>
         <columns xsi:type="yest:OperationColumn" id="nhX7wNXW8wjtrAwIzNzrsoP96PVrxJs6"/>
         <decisions id="XXSxK0MU77GJD3KLMPSj1EdzIpoAOpkw">
           <cells key="nhX7wNXW8wjtrAwIzNzrsoP96PVrxJs6">
@@ -14,23 +13,10 @@
               <operations reference="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
             </value>
           </cells>
-          <cells key="yqt9u9wbMt8lExL7dvAh4OwKl76cSsaC">
-            <value xsi:type="yest:DataValueCell" value="PL2oJxMxfWCTllfHwFjhw989ologc12g"/>
-          </cells>
-        </decisions>
-        <decisions id="wseEeNB34cZbiZ8zeOzyqm2GWTypkPT9">
-          <cells key="nhX7wNXW8wjtrAwIzNzrsoP96PVrxJs6">
-            <value xsi:type="yest:OperationCell">
-              <operations reference="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
-            </value>
-          </cells>
-          <cells key="yqt9u9wbMt8lExL7dvAh4OwKl76cSsaC">
-            <value xsi:type="yest:DataValueCell" value="uNuq1nYSKxP5gPyf8SzTUrlIdpPvwKcf"/>
-          </cells>
         </decisions>
       </table>
     </flowElements>
-    <flowElements xsi:type="yest:ChoicePoint" id="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ" name="" incomings="CzCFFM5ttBAevmBPz6QBySBQ16L7b5Pw" outgoings="7s82CouA0mJFKVoL0UQhTJ3t9LX6oayw LF3SsuMXeRsATEvhKo6NHfjn9GfrAm24">
+    <flowElements xsi:type="yest:ChoicePoint" id="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ" name="" incomings="CzCFFM5ttBAevmBPz6QBySBQ16L7b5Pw" outgoings="LF3SsuMXeRsATEvhKo6NHfjn9GfrAm24 QQxiDDJTzPRb3DwBcyQkVPPQwHAFD5Bb">
       <table>
         <columns xsi:type="yest:DataColumn" id="xC3FwoPHZZQgnWxptAiZ3s9Z1iWKoqNL" data="0qH1JEx8pQn2hHZwdC5YEtGsLg2T6Obt"/>
         <columns xsi:type="yest:OutcomeColumn" id="NZwuYz7tyPh1703mAzZjj9Wjj68Kfqma"/>
@@ -47,12 +33,12 @@
             <value xsi:type="yest:DataValueCell" value="uNuq1nYSKxP5gPyf8SzTUrlIdpPvwKcf"/>
           </cells>
           <cells key="NZwuYz7tyPh1703mAzZjj9Wjj68Kfqma">
-            <value xsi:type="yest:OutcomeCell" outcome="JuMVf8roy0dpMQLPe2toAF4jYhB1yOMQ"/>
+            <value xsi:type="yest:OutcomeCell" outcome="vYheeXW8mzolcnJE2GKbWt8kr4aN1AIb"/>
           </cells>
         </decisions>
       </table>
     </flowElements>
-    <flowElements xsi:type="yest:ChoicePoint" id="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz" name="Compte ok ?" incomings="kvpJv8V955kh7b5uLiRnZdMlRtKyV53I" outgoings="11V59i1CtGUYV6DvoAGe1dwEtFZIz1GM rMPpqFvz6FZrWf6YxVVTKFAFCmQBcd3H">
+    <flowElements xsi:type="yest:ChoicePoint" id="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz" name="Compte ok ?" incomings="JJlF3STlTndSoYLNft5Xsu5S920yJgwW" outgoings="11V59i1CtGUYV6DvoAGe1dwEtFZIz1GM rMPpqFvz6FZrWf6YxVVTKFAFCmQBcd3H">
       <table>
         <columns xsi:type="yest:DataColumn" id="nUgAASbcVWsJ9dvmHBWJR0Ia7ZxeKdlS" data="NnKCRepNZRfPXj3epcJ72I3BbHG1UCQx"/>
         <columns xsi:type="yest:OutcomeColumn" id="LQAwVS4OLfkVuylo13QzKakaS5ODWbib"/>
@@ -79,6 +65,7 @@
     <flowElements xsi:type="yest:ChoicePoint" id="HS474yaJsWcfozXBL5Ch8XyOPU5QxN9q" name="identifiants et mdp ok ?" incomings="4k2s5rhz65vr3DkaIkmk9MKMe0gFb0rv" outgoings="ktmwTAzOKo3SgtC0CxK1jCpCtjkgqB6l qDzsRNlDHwebBJeav2oIZFeRuZeURhjB">
       <table>
         <columns xsi:type="yest:DataColumn" id="6qdLi1Iu9Ob8wU3sKPsdwniJWT2ncwoF" data="8RjOrxXev9L5hGfKOJCsam7QQLBFb0eX"/>
+        <columns xsi:type="yest:DataColumn" id="ffZFqpzPTA7GoIalk1wJDajD90mM0diq" data="0qH1JEx8pQn2hHZwdC5YEtGsLg2T6Obt"/>
         <columns xsi:type="yest:OutcomeColumn" id="YEXobJhGDKk9hQ5GmLjWLDvM4nezfWCB"/>
         <decisions id="DkQgUfhdShURgrOo4xCkvvAtlLcc2eab">
           <cells key="6qdLi1Iu9Ob8wU3sKPsdwniJWT2ncwoF">
@@ -87,10 +74,27 @@
           <cells key="YEXobJhGDKk9hQ5GmLjWLDvM4nezfWCB">
             <value xsi:type="yest:OutcomeCell" outcome="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz"/>
           </cells>
+          <cells key="ffZFqpzPTA7GoIalk1wJDajD90mM0diq">
+            <value xsi:type="yest:DataValueCell" value="PL2oJxMxfWCTllfHwFjhw989ologc12g"/>
+          </cells>
         </decisions>
         <decisions id="9VGNfyuF9D22pqPh40HBNrWbJuU4dgZF">
           <cells key="6qdLi1Iu9Ob8wU3sKPsdwniJWT2ncwoF">
             <value xsi:type="yest:DataValueCell" value="5AnyQsQdunLh4FnNPT5pAXwEP0Z8idtl"/>
+          </cells>
+          <cells key="YEXobJhGDKk9hQ5GmLjWLDvM4nezfWCB">
+            <value xsi:type="yest:OutcomeCell" outcome="BX6kDTrjTnismMyJmw3XE5ds8M6tV0ej"/>
+          </cells>
+          <cells key="ffZFqpzPTA7GoIalk1wJDajD90mM0diq">
+            <value xsi:type="yest:DataValueCell" value="uNuq1nYSKxP5gPyf8SzTUrlIdpPvwKcf"/>
+          </cells>
+        </decisions>
+        <decisions id="EHGJetCK98eOl9JSUtJJksDqaGXI6Aaj">
+          <cells key="6qdLi1Iu9Ob8wU3sKPsdwniJWT2ncwoF">
+            <value xsi:type="yest:DataValueCell" value="5AnyQsQdunLh4FnNPT5pAXwEP0Z8idtl"/>
+          </cells>
+          <cells key="ffZFqpzPTA7GoIalk1wJDajD90mM0diq">
+            <value xsi:type="yest:DataValueCell" value="PL2oJxMxfWCTllfHwFjhw989ologc12g"/>
           </cells>
           <cells key="YEXobJhGDKk9hQ5GmLjWLDvM4nezfWCB">
             <value xsi:type="yest:OutcomeCell" outcome="BX6kDTrjTnismMyJmw3XE5ds8M6tV0ej"/>
@@ -102,30 +106,302 @@
     <flowElements xsi:type="yest:SequenceFlow" id="CzCFFM5ttBAevmBPz6QBySBQ16L7b5Pw" name="" target="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ" source="M2o5XjdU8mGcqGOijgljZjlq2wijYVNP"/>
     <flowElements xsi:type="yest:SequenceFlow" id="11V59i1CtGUYV6DvoAGe1dwEtFZIz1GM" name="ko" target="w5krqUJzdG37XwnKjECSg5crYBbUMTum" source="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz"/>
     <flowElements xsi:type="yest:SequenceFlow" id="ktmwTAzOKo3SgtC0CxK1jCpCtjkgqB6l" name="ko" target="BX6kDTrjTnismMyJmw3XE5ds8M6tV0ej" source="HS474yaJsWcfozXBL5Ch8XyOPU5QxN9q"/>
-    <flowElements xsi:type="yest:ChoicePoint" id="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz" name="" incomings="qDzsRNlDHwebBJeav2oIZFeRuZeURhjB"/>
+    <flowElements xsi:type="yest:ChoicePoint" id="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz" name="" incomings="qDzsRNlDHwebBJeav2oIZFeRuZeURhjB" outgoings="3cG2qyCnHsDLtGrnfyNC0RSW1CKxHkUp yeZ6T2CvGD4lQnUWuPqo2RMrkJ6Mfap3 dTO4vERSMKci30CtxGdNFhY9BgWH4fWn FBaYJHvfQc49Znjh83uMEtP0yEwmCoND">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="ug2GGrd3NQ6iKIrq9MdfpEtSasyRbJ5M" data="NkBzjWruWXGaDvm9MlTqnDjBl3YYzhHo"/>
+        <columns xsi:type="yest:OutcomeColumn" id="lTj3ahafgIpysiAWGaOjKEDc3izOFKyh"/>
+        <decisions id="KJ68HKaZON7UaUMJAigkxG0Pqp14Svv6">
+          <cells key="ug2GGrd3NQ6iKIrq9MdfpEtSasyRbJ5M">
+            <value xsi:type="yest:DataValueCell" value="UYPpAhxwt9qnnWIKvdxu6q6rWSgCvNxx"/>
+          </cells>
+          <cells key="lTj3ahafgIpysiAWGaOjKEDc3izOFKyh">
+            <value xsi:type="yest:OutcomeCell" outcome="hCbIF2Z4nXl5mzR5aHciJYf6PEtbByF8"/>
+          </cells>
+        </decisions>
+        <decisions id="fn7hrcjAzr4h6pjU8rlQCGsbxQXvQGkH">
+          <cells key="ug2GGrd3NQ6iKIrq9MdfpEtSasyRbJ5M">
+            <value xsi:type="yest:DataValueCell" value="U5NY2villvBIQz6Aq7OER0OHWfpietiq"/>
+          </cells>
+          <cells key="lTj3ahafgIpysiAWGaOjKEDc3izOFKyh">
+            <value xsi:type="yest:OutcomeCell" outcome="3bV0bD5urOVa7FQ9QJmEhAG48AU6nb7N"/>
+          </cells>
+        </decisions>
+        <decisions id="bftrlzZkTScm9KoP8LgiUfiGzeVwlr6O">
+          <cells key="ug2GGrd3NQ6iKIrq9MdfpEtSasyRbJ5M">
+            <value xsi:type="yest:DataValueCell" value="FNMa3jjsTeqUEQrnSRfWS2uXIt4tD4he"/>
+          </cells>
+          <cells key="lTj3ahafgIpysiAWGaOjKEDc3izOFKyh">
+            <value xsi:type="yest:OutcomeCell" outcome="wtMbrjdjio2OccSI01rLzTSMSnrluhQZ"/>
+          </cells>
+        </decisions>
+        <decisions id="RyhenQ0zXTzU5foptSQfLeQvcFiUD26f">
+          <cells key="ug2GGrd3NQ6iKIrq9MdfpEtSasyRbJ5M">
+            <value xsi:type="yest:DataValueCell" value="Hj1EAvfPNGvvRfoNynRtEoo6OB5Qv8ix"/>
+          </cells>
+          <cells key="lTj3ahafgIpysiAWGaOjKEDc3izOFKyh">
+            <value xsi:type="yest:OutcomeCell" outcome="2QlF4bBPduiCFhvDb0JjTEQ0qlt2Ha7A"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
     <flowElements xsi:type="yest:SequenceFlow" id="qDzsRNlDHwebBJeav2oIZFeRuZeURhjB" name="ok" target="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz" source="HS474yaJsWcfozXBL5Ch8XyOPU5QxN9q"/>
-    <flowElements xsi:type="yest:CallActivity" id="JuMVf8roy0dpMQLPe2toAF4jYhB1yOMQ" name="SousParcoursCréationCompte" incomings="7s82CouA0mJFKVoL0UQhTJ3t9LX6oayw" outgoings="kvpJv8V955kh7b5uLiRnZdMlRtKyV53I" subWorkflow="JuzdlYXdHUAIvnd3hZOChOjeSHTa7g15"/>
-    <flowElements xsi:type="yest:SequenceFlow" id="kvpJv8V955kh7b5uLiRnZdMlRtKyV53I" name="" target="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz" source="JuMVf8roy0dpMQLPe2toAF4jYhB1yOMQ"/>
-    <flowElements xsi:type="yest:SequenceFlow" id="7s82CouA0mJFKVoL0UQhTJ3t9LX6oayw" name="Créer un compte" target="JuMVf8roy0dpMQLPe2toAF4jYhB1yOMQ" source="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ"/>
     <flowElements xsi:type="yest:CallActivity" id="8OKwRhdf7LcVHFdX7PdB7D9MZ6VsW8vu" name="SousParcoursConnexion" incomings="LF3SsuMXeRsATEvhKo6NHfjn9GfrAm24 rMPpqFvz6FZrWf6YxVVTKFAFCmQBcd3H" outgoings="4k2s5rhz65vr3DkaIkmk9MKMe0gFb0rv" subWorkflow="NaB1E69Sa4mtnGE41sb6PQgThBJI2XWH"/>
     <flowElements xsi:type="yest:SequenceFlow" id="LF3SsuMXeRsATEvhKo6NHfjn9GfrAm24" name="Se connecter directement" target="8OKwRhdf7LcVHFdX7PdB7D9MZ6VsW8vu" source="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ"/>
     <flowElements xsi:type="yest:SequenceFlow" id="rMPpqFvz6FZrWf6YxVVTKFAFCmQBcd3H" name="ok" target="8OKwRhdf7LcVHFdX7PdB7D9MZ6VsW8vu" source="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz"/>
     <flowElements xsi:type="yest:SequenceFlow" id="4k2s5rhz65vr3DkaIkmk9MKMe0gFb0rv" name="" target="HS474yaJsWcfozXBL5Ch8XyOPU5QxN9q" source="8OKwRhdf7LcVHFdX7PdB7D9MZ6VsW8vu"/>
-    <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="ParcoursApplicatif" pictogramLinks="//@testElements.0/@diagram/@children.0/@link //@testElements.0/@diagram/@children.2/@link //@testElements.0/@diagram/@children.3/@link //@testElements.0/@diagram/@children.4/@link //@testElements.0/@diagram/@children.5/@link //@testElements.0/@diagram/@children.6/@link //@testElements.0/@diagram/@children.7/@link //@testElements.0/@diagram/@connections.0/@link //@testElements.0/@diagram/@connections.1/@link //@testElements.0/@diagram/@connections.2/@link //@testElements.0/@diagram/@connections.3/@link //@testElements.0/@diagram/@children.8/@link //@testElements.0/@diagram/@connections.4/@link //@testElements.0/@diagram/@children.13/@link //@testElements.0/@diagram/@connections.5/@link //@testElements.0/@diagram/@connections.6/@link //@testElements.0/@diagram/@children.14/@link //@testElements.0/@diagram/@connections.7/@link //@testElements.0/@diagram/@connections.8/@link //@testElements.0/@diagram/@connections.9/@link" version="0.16.0">
+    <flowElements xsi:type="yest:Task" id="vYheeXW8mzolcnJE2GKbWt8kr4aN1AIb" name="Entrer les données d'inscriptions" incomings="QQxiDDJTzPRb3DwBcyQkVPPQwHAFD5Bb" outgoings="JJlF3STlTndSoYLNft5Xsu5S920yJgwW">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="r3Q2BkIhxusbHRWmBxtP2IWA5v5kZvp1" data="NnKCRepNZRfPXj3epcJ72I3BbHG1UCQx"/>
+        <columns xsi:type="yest:OperationColumn" id="UZy72OjjDJe1uVtPOKD5TwDb7x9wZNVl"/>
+        <columns xsi:type="yest:CriterionColumn" id="TzxVaRtsMvStEu99QWtt9qVA5DsXnnLG" criterionType="#objective"/>
+        <decisions id="iB70kiZtgpIJGNl48fRVUCu3faOInBlJ">
+          <cells key="UZy72OjjDJe1uVtPOKD5TwDb7x9wZNVl">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="J4IuLkZckhfE6iHXcOFRsFXnFGYqLRrd"/>
+            </value>
+          </cells>
+          <cells key="r3Q2BkIhxusbHRWmBxtP2IWA5v5kZvp1">
+            <value xsi:type="yest:DataValueCell" value="TNg9zz4zpkEd35hSMBsN0LUzsHf3PN8b"/>
+          </cells>
+          <cells key="TzxVaRtsMvStEu99QWtt9qVA5DsXnnLG">
+            <value xsi:type="yest:StringCell" value="Inscription valide"/>
+          </cells>
+        </decisions>
+        <decisions id="2LRP8Ukee5DdlSJuDyTuAujLfcmGSVgr">
+          <cells key="UZy72OjjDJe1uVtPOKD5TwDb7x9wZNVl">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="J4IuLkZckhfE6iHXcOFRsFXnFGYqLRrd"/>
+            </value>
+          </cells>
+          <cells key="r3Q2BkIhxusbHRWmBxtP2IWA5v5kZvp1">
+            <value xsi:type="yest:DataValueCell" value="s7fue8ccEQu8CeBJtdr2foBGCY5utVIw"/>
+          </cells>
+          <cells key="TzxVaRtsMvStEu99QWtt9qVA5DsXnnLG">
+            <value xsi:type="yest:StringCell" value="Inscription invalide"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="QQxiDDJTzPRb3DwBcyQkVPPQwHAFD5Bb" name="" target="vYheeXW8mzolcnJE2GKbWt8kr4aN1AIb" source="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="JJlF3STlTndSoYLNft5Xsu5S920yJgwW" name="" target="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz" source="vYheeXW8mzolcnJE2GKbWt8kr4aN1AIb"/>
+    <flowElements xsi:type="yest:Task" id="3bV0bD5urOVa7FQ9QJmEhAG48AU6nb7N" name="Effectuer/Demander une transaction" incomings="3cG2qyCnHsDLtGrnfyNC0RSW1CKxHkUp" outgoings="E9OQ8EtEI4oSv2Llnl3Vgip9fb265AcE">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="i87dAmekH2hkukqOjClFpK852ca0TGxq" data="0vh4DvfjOhkIK8m0Dg7y3btIJqstIEZA"/>
+        <columns xsi:type="yest:OperationColumn" id="92VGOaTXIJyJ9p0LLwtM8FlH10V2ap34"/>
+        <columns xsi:type="yest:CriterionColumn" id="ogrTPd9JyFgEhu3h9EbbcKW6IAXwurSe" criterionType="#objective"/>
+        <decisions id="omrGan0HCTUF2BaDfVcJBPo2e68ApbI8">
+          <cells key="92VGOaTXIJyJ9p0LLwtM8FlH10V2ap34">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="SA1374Prki4SjHjkdfk8FEryOd4QzzQ8"/>
+            </value>
+          </cells>
+          <cells key="i87dAmekH2hkukqOjClFpK852ca0TGxq">
+            <value xsi:type="yest:DataValueCell" value="wWERoqhdwFPDKxzqm57TT9bBLsrbDG2s"/>
+          </cells>
+          <cells key="ogrTPd9JyFgEhu3h9EbbcKW6IAXwurSe">
+            <value xsi:type="yest:StringCell" value="Informations de transaction valides"/>
+          </cells>
+        </decisions>
+        <decisions id="gzqByf7r96kriPvjIQwYvDzbSRt8JOfp">
+          <cells key="i87dAmekH2hkukqOjClFpK852ca0TGxq">
+            <value xsi:type="yest:DataValueCell" value="BEmndVIZkfN9XLnsRqth4j5z6Qjcurz8"/>
+          </cells>
+          <cells key="92VGOaTXIJyJ9p0LLwtM8FlH10V2ap34">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="ZOFvTNpeiUWDrSDVxl3ts8L3LfB1tiSV"/>
+            </value>
+          </cells>
+          <cells key="ogrTPd9JyFgEhu3h9EbbcKW6IAXwurSe">
+            <value xsi:type="yest:StringCell" value="Informations de transaction invalides"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="3cG2qyCnHsDLtGrnfyNC0RSW1CKxHkUp" name="Intention d'effectuer/demander une transaction" target="3bV0bD5urOVa7FQ9QJmEhAG48AU6nb7N" source="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz"/>
+    <flowElements xsi:type="yest:ChoicePoint" id="JDZ75uhnDuMbUC2Wx97dRxgOr8SUc30q" name="" incomings="E9OQ8EtEI4oSv2Llnl3Vgip9fb265AcE" outgoings="sl1zo6TCRNXoJLrTgg5ujpuPK4Bp87uF ZgUd8BgG7l0VCOjNECGHLr24e0ZNH57I">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="9p4xvjznO6rVU1FzUO3bcjrGOR8lm8uT" data="0vh4DvfjOhkIK8m0Dg7y3btIJqstIEZA"/>
+        <columns xsi:type="yest:OutcomeColumn" id="Ti9CVTGGsTLLqeWK6fGgAWUSLHoEa2WP"/>
+        <decisions id="PZ8ANT48qI3IjoQ2tHyvLdMjAM1yV7RJ">
+          <cells key="9p4xvjznO6rVU1FzUO3bcjrGOR8lm8uT">
+            <value xsi:type="yest:DataValueCell" value="wWERoqhdwFPDKxzqm57TT9bBLsrbDG2s"/>
+          </cells>
+          <cells key="Ti9CVTGGsTLLqeWK6fGgAWUSLHoEa2WP">
+            <value xsi:type="yest:OutcomeCell" outcome="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu"/>
+          </cells>
+        </decisions>
+        <decisions id="ADbiHwl274buV4f9EKnAvVeBlH1bYVjt">
+          <cells key="9p4xvjznO6rVU1FzUO3bcjrGOR8lm8uT">
+            <value xsi:type="yest:DataValueCell" value="BEmndVIZkfN9XLnsRqth4j5z6Qjcurz8"/>
+          </cells>
+          <cells key="Ti9CVTGGsTLLqeWK6fGgAWUSLHoEa2WP">
+            <value xsi:type="yest:OutcomeCell" outcome="fHW8Ke9hNmhdjhDCSvdxEvtbGbLaC0gV"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="E9OQ8EtEI4oSv2Llnl3Vgip9fb265AcE" name="Informations de transaction ok ?" target="JDZ75uhnDuMbUC2Wx97dRxgOr8SUc30q" source="3bV0bD5urOVa7FQ9QJmEhAG48AU6nb7N"/>
+    <flowElements xsi:type="yest:EndPoint" id="fHW8Ke9hNmhdjhDCSvdxEvtbGbLaC0gV" name="Echec de la transaction" incomings="sl1zo6TCRNXoJLrTgg5ujpuPK4Bp87uF"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sl1zo6TCRNXoJLrTgg5ujpuPK4Bp87uF" name="ko" target="fHW8Ke9hNmhdjhDCSvdxEvtbGbLaC0gV" source="JDZ75uhnDuMbUC2Wx97dRxgOr8SUc30q"/>
+    <flowElements xsi:type="yest:Task" id="hCbIF2Z4nXl5mzR5aHciJYf6PEtbByF8" name="Créer un compte en banque" incomings="yeZ6T2CvGD4lQnUWuPqo2RMrkJ6Mfap3" outgoings="ovbhcgfkZUuTuiEkoQBBTCmN2gbQBbLd">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="h2gPTtnZ9WfaWcgY2Axhvt92ZcVIDXAO" data="3XLFTzFFVl3L2iaMs4WZGLSDVMsADx0T"/>
+        <columns xsi:type="yest:OperationColumn" id="WMhGQS8Bmp0FOdprjwfzHoffIqX4969r"/>
+        <columns xsi:type="yest:CriterionColumn" id="iMR5BGd9qslVny5Ln3bEloaqs5yVo1zs" criterionType="#objective"/>
+        <decisions id="EyErCoKlfk9cLq1pRstinjWsi5pgJS40">
+          <cells key="WMhGQS8Bmp0FOdprjwfzHoffIqX4969r">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="Gcv4KAEs1Vx3Es7EQmPtzg8atfFWgYou"/>
+            </value>
+          </cells>
+          <cells key="h2gPTtnZ9WfaWcgY2Axhvt92ZcVIDXAO">
+            <value xsi:type="yest:DataValueCell" value="hWaFZJ3R7Zwp03YOCqjIqGMukQLyzXa8"/>
+          </cells>
+          <cells key="iMR5BGd9qslVny5Ln3bEloaqs5yVo1zs">
+            <value xsi:type="yest:StringCell" value="Informations de compte bancaire valides"/>
+          </cells>
+        </decisions>
+        <decisions id="cklYeePAWqoidKEBXf6L2ZSsS0hd9h1R">
+          <cells key="h2gPTtnZ9WfaWcgY2Axhvt92ZcVIDXAO">
+            <value xsi:type="yest:DataValueCell" value="rVOesgL4dbWJUSEFxXPIFceVKUE2ejzE"/>
+          </cells>
+          <cells key="WMhGQS8Bmp0FOdprjwfzHoffIqX4969r">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="7WlOJsEUj8cMGtLv3SEsYkcvHYjGjc7z"/>
+            </value>
+          </cells>
+          <cells key="iMR5BGd9qslVny5Ln3bEloaqs5yVo1zs">
+            <value xsi:type="yest:StringCell" value="Informations de compte bancaire invalides"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="yeZ6T2CvGD4lQnUWuPqo2RMrkJ6Mfap3" name="Intention de créer un compte" target="hCbIF2Z4nXl5mzR5aHciJYf6PEtbByF8" source="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz"/>
+    <flowElements xsi:type="yest:ChoicePoint" id="joK0nVCq5JjQ4y6LFRvGwZz82uZijUQc" name="" incomings="ovbhcgfkZUuTuiEkoQBBTCmN2gbQBbLd" outgoings="Y0YTfPR16azIicTLhJgAHZuK7TE6WM0a ELZJdrmMEfJgBRBYLW0uWWKIRvXcVmNI">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="pHhaK8gVsTy53mhcTV9vrRlDihBzYEes" data="3XLFTzFFVl3L2iaMs4WZGLSDVMsADx0T"/>
+        <columns xsi:type="yest:OutcomeColumn" id="kDWf75SavvLKhUhmH55mpKm55IHFK1TF"/>
+        <decisions id="d8cxbpt7b156uptPbCM7WrIVbSc8SXku">
+          <cells key="pHhaK8gVsTy53mhcTV9vrRlDihBzYEes">
+            <value xsi:type="yest:DataValueCell" value="hWaFZJ3R7Zwp03YOCqjIqGMukQLyzXa8"/>
+          </cells>
+          <cells key="kDWf75SavvLKhUhmH55mpKm55IHFK1TF">
+            <value xsi:type="yest:OutcomeCell" outcome="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu"/>
+          </cells>
+        </decisions>
+        <decisions id="OTmfGxizQ0V5Cnx0A8vw7lB9hx2RxDH0">
+          <cells key="pHhaK8gVsTy53mhcTV9vrRlDihBzYEes">
+            <value xsi:type="yest:DataValueCell" value="rVOesgL4dbWJUSEFxXPIFceVKUE2ejzE"/>
+          </cells>
+          <cells key="kDWf75SavvLKhUhmH55mpKm55IHFK1TF">
+            <value xsi:type="yest:OutcomeCell" outcome="ryvilHk51kejec3puAAufjH4ckbIl0U2"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="ovbhcgfkZUuTuiEkoQBBTCmN2gbQBbLd" name="données du compte ok ?" target="joK0nVCq5JjQ4y6LFRvGwZz82uZijUQc" source="hCbIF2Z4nXl5mzR5aHciJYf6PEtbByF8"/>
+    <flowElements xsi:type="yest:EndPoint" id="ryvilHk51kejec3puAAufjH4ckbIl0U2" name="Echec création de compte bancaire" incomings="Y0YTfPR16azIicTLhJgAHZuK7TE6WM0a"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="Y0YTfPR16azIicTLhJgAHZuK7TE6WM0a" name="ko" target="ryvilHk51kejec3puAAufjH4ckbIl0U2" source="joK0nVCq5JjQ4y6LFRvGwZz82uZijUQc"/>
+    <flowElements xsi:type="yest:Task" id="wtMbrjdjio2OccSI01rLzTSMSnrluhQZ" name="Modifier les données personnelles" incomings="dTO4vERSMKci30CtxGdNFhY9BgWH4fWn" outgoings="kUoC7wtjGIihRnI0CrwctfDmTL6VSOum">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="RdKpBUF2paGmSgCBqTksLOueNJjmMSHh" data="1078jdHoxa9r46QgD1CEOzGNsEacFBwY"/>
+        <columns xsi:type="yest:OperationColumn" id="2IYTEI2h04FUMIHd3Vp60Z9pbV2eDBOk"/>
+        <columns xsi:type="yest:CriterionColumn" id="jkr52Ae6dOgmQc2EBpGMxYgo5HmNUE0V" criterionType="#objective"/>
+        <decisions id="Z4sgrPU9g9OSBpnyT32ZGWxxl40mgbAn">
+          <cells key="2IYTEI2h04FUMIHd3Vp60Z9pbV2eDBOk">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="LH9ZyP7IEBg9DXZnLyIoIrgFNAAKUhex"/>
+            </value>
+          </cells>
+          <cells key="RdKpBUF2paGmSgCBqTksLOueNJjmMSHh">
+            <value xsi:type="yest:DataValueCell" value="c63mExqfWcmp06cmV6GWvbxzFf5LBwQ4"/>
+          </cells>
+          <cells key="jkr52Ae6dOgmQc2EBpGMxYgo5HmNUE0V">
+            <value xsi:type="yest:StringCell" value="Données personnelles valides"/>
+          </cells>
+        </decisions>
+        <decisions id="RSxLnwvTKYOK2gscSjIxJlFhWPvOdgPu">
+          <cells key="RdKpBUF2paGmSgCBqTksLOueNJjmMSHh">
+            <value xsi:type="yest:DataValueCell" value="teV1dyCBRZFq6GMGsEw7WjrWhWotF09f"/>
+          </cells>
+          <cells key="2IYTEI2h04FUMIHd3Vp60Z9pbV2eDBOk">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="AIEPRYUAR9TiJEYZvu9b4KxLJOzSNmoc"/>
+            </value>
+          </cells>
+          <cells key="jkr52Ae6dOgmQc2EBpGMxYgo5HmNUE0V">
+            <value xsi:type="yest:StringCell" value="Données personnelles invalides"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="dTO4vERSMKci30CtxGdNFhY9BgWH4fWn" name="Intention de modifier les données" target="wtMbrjdjio2OccSI01rLzTSMSnrluhQZ" source="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz"/>
+    <flowElements xsi:type="yest:ChoicePoint" id="vRLGmTkaEMlUBjzq4wpHvXgQNmjxUHAF" name="" incomings="kUoC7wtjGIihRnI0CrwctfDmTL6VSOum" outgoings="vIevnARWjbqRV3GbdnYHvN7i4QRRpUDK Y2QWoAF9Y3aIgonZws95f26XRvvEbjOc">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="GGPiNEcaIhYCoamIi4jtOeTXhpX3JHGa" data="1078jdHoxa9r46QgD1CEOzGNsEacFBwY"/>
+        <columns xsi:type="yest:OutcomeColumn" id="8ZduqQEYuOuKS1x4wPGGX6d34u4erDAd"/>
+        <decisions id="hihj9ts4BVmO8RtO6dD6o4AS6wDCotNQ">
+          <cells key="8ZduqQEYuOuKS1x4wPGGX6d34u4erDAd">
+            <value xsi:type="yest:OutcomeCell" outcome="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu"/>
+          </cells>
+          <cells key="GGPiNEcaIhYCoamIi4jtOeTXhpX3JHGa">
+            <value xsi:type="yest:DataValueCell" value="c63mExqfWcmp06cmV6GWvbxzFf5LBwQ4"/>
+          </cells>
+        </decisions>
+        <decisions id="hUvbrqapAf8ocAy9cwWbFgWa7402ohmg">
+          <cells key="8ZduqQEYuOuKS1x4wPGGX6d34u4erDAd">
+            <value xsi:type="yest:OutcomeCell" outcome="r1IeeyVqnSA0nxMzaITI5z6nQazfYP50"/>
+          </cells>
+          <cells key="GGPiNEcaIhYCoamIi4jtOeTXhpX3JHGa">
+            <value xsi:type="yest:DataValueCell" value="teV1dyCBRZFq6GMGsEw7WjrWhWotF09f"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="kUoC7wtjGIihRnI0CrwctfDmTL6VSOum" name="Données personnelles ok ?" target="vRLGmTkaEMlUBjzq4wpHvXgQNmjxUHAF" source="wtMbrjdjio2OccSI01rLzTSMSnrluhQZ"/>
+    <flowElements xsi:type="yest:EndPoint" id="r1IeeyVqnSA0nxMzaITI5z6nQazfYP50" name="Echec de la modification" incomings="vIevnARWjbqRV3GbdnYHvN7i4QRRpUDK"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="vIevnARWjbqRV3GbdnYHvN7i4QRRpUDK" name="ko" target="r1IeeyVqnSA0nxMzaITI5z6nQazfYP50" source="vRLGmTkaEMlUBjzq4wpHvXgQNmjxUHAF"/>
+    <flowElements xsi:type="yest:Task" id="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu" name="Se déconnecter" incomings="Y2QWoAF9Y3aIgonZws95f26XRvvEbjOc ELZJdrmMEfJgBRBYLW0uWWKIRvXcVmNI ZgUd8BgG7l0VCOjNECGHLr24e0ZNH57I sRbRkLtoQxAlq9pqdfofOwDdrNBsSJVV"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="Y2QWoAF9Y3aIgonZws95f26XRvvEbjOc" name="ok" target="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu" source="vRLGmTkaEMlUBjzq4wpHvXgQNmjxUHAF"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="ELZJdrmMEfJgBRBYLW0uWWKIRvXcVmNI" name="ok" target="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu" source="joK0nVCq5JjQ4y6LFRvGwZz82uZijUQc"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="ZgUd8BgG7l0VCOjNECGHLr24e0ZNH57I" name="ok" target="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu" source="JDZ75uhnDuMbUC2Wx97dRxgOr8SUc30q"/>
+    <flowElements xsi:type="yest:Task" id="2QlF4bBPduiCFhvDb0JjTEQ0qlt2Ha7A" name="Commenter une transaction" incomings="FBaYJHvfQc49Znjh83uMEtP0yEwmCoND" outgoings="sRbRkLtoQxAlq9pqdfofOwDdrNBsSJVV">
+      <table>
+        <columns xsi:type="yest:DataColumn" id="P84nc2o6GPgbHY5FTFHPFD7S1hISUAi9" data="r2KRaOlyCpkHMqoSAom7W3JtONgzu8Ju"/>
+        <columns xsi:type="yest:OperationColumn" id="MTRoQaKeWkfnTcJdpYUKun4PUfsOM3RY"/>
+        <columns xsi:type="yest:CriterionColumn" id="FU4qX1vFDu8HMYzhUlQewZMU91yRNcdM" criterionType="#objective"/>
+        <decisions id="MrRjFRxd40WVtyUOyU8zxZczIHEb1w6O">
+          <cells key="MTRoQaKeWkfnTcJdpYUKun4PUfsOM3RY">
+            <value xsi:type="yest:OperationCell">
+              <operations reference="F3OeNvQtaUP5vIHDib2oCjCiSETc4YTc"/>
+            </value>
+          </cells>
+          <cells key="FU4qX1vFDu8HMYzhUlQewZMU91yRNcdM">
+            <value xsi:type="yest:StringCell" value="Commenter une transaction"/>
+          </cells>
+          <cells key="P84nc2o6GPgbHY5FTFHPFD7S1hISUAi9">
+            <value xsi:type="yest:DataValueCell" value="vxVcVfAxQSqNAUkeLKQUb4DuI5SyePCu"/>
+          </cells>
+        </decisions>
+      </table>
+    </flowElements>
+    <flowElements xsi:type="yest:SequenceFlow" id="FBaYJHvfQc49Znjh83uMEtP0yEwmCoND" name="Intention de commenter une transaction" target="2QlF4bBPduiCFhvDb0JjTEQ0qlt2Ha7A" source="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz"/>
+    <flowElements xsi:type="yest:SequenceFlow" id="sRbRkLtoQxAlq9pqdfofOwDdrNBsSJVV" name="" target="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu" source="2QlF4bBPduiCFhvDb0JjTEQ0qlt2Ha7A"/>
+    <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="ParcoursApplicatif" pictogramLinks="//@testElements.0/@diagram/@children.0/@link //@testElements.0/@diagram/@children.2/@link //@testElements.0/@diagram/@children.3/@link //@testElements.0/@diagram/@children.4/@link //@testElements.0/@diagram/@children.5/@link //@testElements.0/@diagram/@children.6/@link //@testElements.0/@diagram/@children.7/@link //@testElements.0/@diagram/@connections.0/@link //@testElements.0/@diagram/@connections.1/@link //@testElements.0/@diagram/@connections.2/@link //@testElements.0/@diagram/@connections.3/@link //@testElements.0/@diagram/@children.8/@link //@testElements.0/@diagram/@connections.4/@link //@testElements.0/@diagram/@children.13/@link //@testElements.0/@diagram/@connections.5/@link //@testElements.0/@diagram/@connections.6/@link //@testElements.0/@diagram/@connections.7/@link //@testElements.0/@diagram/@children.14/@link //@testElements.0/@diagram/@connections.8/@link //@testElements.0/@diagram/@connections.9/@link //@testElements.0/@diagram/@children.15/@link //@testElements.0/@diagram/@connections.10/@link //@testElements.0/@diagram/@children.16/@link //@testElements.0/@diagram/@connections.11/@link //@testElements.0/@diagram/@children.17/@link //@testElements.0/@diagram/@connections.12/@link //@testElements.0/@diagram/@children.19/@link //@testElements.0/@diagram/@connections.13/@link //@testElements.0/@diagram/@children.20/@link //@testElements.0/@diagram/@connections.14/@link //@testElements.0/@diagram/@children.21/@link //@testElements.0/@diagram/@connections.15/@link //@testElements.0/@diagram/@children.23/@link //@testElements.0/@diagram/@connections.16/@link //@testElements.0/@diagram/@children.24/@link //@testElements.0/@diagram/@connections.17/@link //@testElements.0/@diagram/@children.25/@link //@testElements.0/@diagram/@connections.18/@link //@testElements.0/@diagram/@children.27/@link //@testElements.0/@diagram/@connections.19/@link //@testElements.0/@diagram/@connections.20/@link //@testElements.0/@diagram/@connections.21/@link //@testElements.0/@diagram/@children.28/@link //@testElements.0/@diagram/@connections.22/@link //@testElements.0/@diagram/@connections.23/@link" version="0.16.0">
       <graphicsAlgorithm xsi:type="al:Rectangle" background="//@testElements.0/@diagram/@colors.1" foreground="//@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
       <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="CgWE2ZLtMhJoH9sbkB688vaK4qg5NaqJ" labelShape="//@testElements.0/@diagram/@children.1">
-        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="278" y="215" style="//@testElements.0/@diagram/@styles.0"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="594" y="45" style="//@testElements.0/@diagram/@styles.0"/>
         <link businessObjects="CgWE2ZLtMhJoH9sbkB688vaK4qg5NaqJ"/>
         <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.0"/>
       </children>
       <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.0">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="50" height="21" x="223" y="215"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="50" height="21" x="539" y="45"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="50" height="21" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Début"/>
         </children>
       </children>
       <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.2/@children.0/@graphicsAlgorithm" flowNode="M2o5XjdU8mGcqGOijgljZjlq2wijYVNP">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="200" y="294" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="516" y="124" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="M2o5XjdU8mGcqGOijgljZjlq2wijYVNP"/>
         <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.1" incomingConnections="//@testElements.0/@diagram/@connections.0"/>
         <children xsi:type="pi:ContainerShape" visible="true">
@@ -133,7 +409,7 @@
         </children>
       </children>
       <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.3/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.3/@children.1/@graphicsAlgorithm" flowNode="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ">
-        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="273" y="403" style="//@testElements.0/@diagram/@styles.2">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="589" y="233" style="//@testElements.0/@diagram/@styles.2">
           <points x="20"/>
           <points x="40" y="20"/>
           <points x="20" y="40"/>
@@ -141,7 +417,7 @@
           <points x="20"/>
         </graphicsAlgorithm>
         <link businessObjects="1VtvoMK3gb7YvmaKcoQmqU1WoeisURXJ"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.6 //@testElements.0/@diagram/@connections.7" incomingConnections="//@testElements.0/@diagram/@connections.1"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.5 //@testElements.0/@diagram/@connections.8" incomingConnections="//@testElements.0/@diagram/@connections.1"/>
         <children visible="true">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
             <points x="12" y="12"/>
@@ -156,7 +432,7 @@
         </children>
       </children>
       <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.4/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.4/@children.1/@graphicsAlgorithm" flowNode="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz" labelShape="//@testElements.0/@diagram/@children.9">
-        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="588" y="545" style="//@testElements.0/@diagram/@styles.2">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="904" y="375" style="//@testElements.0/@diagram/@styles.2">
           <points x="20"/>
           <points x="40" y="20"/>
           <points x="20" y="40"/>
@@ -164,7 +440,7 @@
           <points x="20"/>
         </graphicsAlgorithm>
         <link businessObjects="GF19jaa2JbAuF4ln4bfBKmRBUdQyfdjz"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.2 //@testElements.0/@diagram/@connections.8" incomingConnections="//@testElements.0/@diagram/@connections.5"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.2 //@testElements.0/@diagram/@connections.6" incomingConnections="//@testElements.0/@diagram/@connections.9"/>
         <children visible="true">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
             <points x="12" y="12"/>
@@ -179,17 +455,17 @@
         </children>
       </children>
       <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="w5krqUJzdG37XwnKjECSg5crYBbUMTum" labelShape="//@testElements.0/@diagram/@children.10">
-        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="4" transparency="0.0" width="31" height="31" x="662" y="623" style="//@testElements.0/@diagram/@styles.3"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="4" transparency="0.0" width="31" height="31" x="978" y="453" style="//@testElements.0/@diagram/@styles.3"/>
         <link businessObjects="w5krqUJzdG37XwnKjECSg5crYBbUMTum"/>
         <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.2"/>
       </children>
       <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="BX6kDTrjTnismMyJmw3XE5ds8M6tV0ej" labelShape="//@testElements.0/@diagram/@children.12">
-        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="4" transparency="0.0" width="31" height="31" x="458" y="682" style="//@testElements.0/@diagram/@styles.3"/>
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="4" transparency="0.0" width="31" height="31" x="774" y="512" style="//@testElements.0/@diagram/@styles.3"/>
         <link businessObjects="BX6kDTrjTnismMyJmw3XE5ds8M6tV0ej"/>
         <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.3"/>
       </children>
       <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.7/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.7/@children.1/@graphicsAlgorithm" flowNode="HS474yaJsWcfozXBL5Ch8XyOPU5QxN9q" labelShape="//@testElements.0/@diagram/@children.11">
-        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="273" y="677" style="//@testElements.0/@diagram/@styles.2">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="589" y="507" style="//@testElements.0/@diagram/@styles.2">
           <points x="20"/>
           <points x="40" y="20"/>
           <points x="20" y="40"/>
@@ -197,7 +473,7 @@
           <points x="20"/>
         </graphicsAlgorithm>
         <link businessObjects="HS474yaJsWcfozXBL5Ch8XyOPU5QxN9q"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.3 //@testElements.0/@diagram/@connections.4" incomingConnections="//@testElements.0/@diagram/@connections.9"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.3 //@testElements.0/@diagram/@connections.4" incomingConnections="//@testElements.0/@diagram/@connections.7"/>
         <children visible="true">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
             <points x="12" y="12"/>
@@ -212,7 +488,7 @@
         </children>
       </children>
       <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.8/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.8/@children.1/@graphicsAlgorithm" flowNode="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz">
-        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="273" y="772" style="//@testElements.0/@diagram/@styles.2">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="589" y="705" style="//@testElements.0/@diagram/@styles.2">
           <points x="20"/>
           <points x="40" y="20"/>
           <points x="20" y="40"/>
@@ -220,7 +496,7 @@
           <points x="20"/>
         </graphicsAlgorithm>
         <link businessObjects="BOck5YuVTB75O2pYYvZHLrVbIV4oS4uz"/>
-        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.4"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.10 //@testElements.0/@diagram/@connections.13 //@testElements.0/@diagram/@connections.16 //@testElements.0/@diagram/@connections.22" incomingConnections="//@testElements.0/@diagram/@connections.4"/>
         <children visible="true">
           <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
             <points x="12" y="12"/>
@@ -235,61 +511,33 @@
         </children>
       </children>
       <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.9/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.4">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="628" y="495"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="944" y="325"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Compte ok ?"/>
         </children>
       </children>
       <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.10/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.5">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="702" y="618"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="1018" y="448"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Echec création&#xD;&#xA;de compte"/>
         </children>
       </children>
       <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.11/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.7">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="165" y="659"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="481" y="489"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="identifiants et&#xD;&#xA;mdp ok ?"/>
         </children>
       </children>
       <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.12/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.6">
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="488" y="677"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="804" y="507"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Echec&#xD;&#xA;Connexion"/>
         </children>
       </children>
-      <children xsi:type="yest:CallActivityShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.13/@children.0/@graphicsAlgorithm" extras="//@testElements.0/@diagram/@children.13/@children.1/@graphicsAlgorithm //@testElements.0/@diagram/@children.13/@children.2/@graphicsAlgorithm //@testElements.0/@diagram/@children.13/@children.3/@graphicsAlgorithm" flowNode="JuMVf8roy0dpMQLPe2toAF4jYhB1yOMQ">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="226" height="74" x="496" y="387" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
-        <link businessObjects="JuMVf8roy0dpMQLPe2toAF4jYhB1yOMQ"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.5" incomingConnections="//@testElements.0/@diagram/@connections.6"/>
-        <children xsi:type="pi:ContainerShape" visible="true">
-          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="212" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="SousParcoursCréationCompte"/>
-        </children>
-        <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2">
-            <points x="104" y="74"/>
-            <points x="104" y="56"/>
-            <points x="122" y="56"/>
-            <points x="122" y="74"/>
-          </graphicsAlgorithm>
-        </children>
-        <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2">
-            <points x="106" y="64"/>
-            <points x="120" y="64"/>
-          </graphicsAlgorithm>
-        </children>
-        <children visible="true">
-          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2">
-            <points x="112" y="58"/>
-            <points x="112" y="72"/>
-          </graphicsAlgorithm>
-        </children>
-      </children>
-      <children xsi:type="yest:CallActivityShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.14/@children.0/@graphicsAlgorithm" extras="//@testElements.0/@diagram/@children.14/@children.1/@graphicsAlgorithm //@testElements.0/@diagram/@children.14/@children.2/@graphicsAlgorithm //@testElements.0/@diagram/@children.14/@children.3/@graphicsAlgorithm" flowNode="8OKwRhdf7LcVHFdX7PdB7D9MZ6VsW8vu">
-        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="226" height="74" x="181" y="529" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+      <children xsi:type="yest:CallActivityShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.13/@children.0/@graphicsAlgorithm" extras="//@testElements.0/@diagram/@children.13/@children.1/@graphicsAlgorithm //@testElements.0/@diagram/@children.13/@children.2/@graphicsAlgorithm //@testElements.0/@diagram/@children.13/@children.3/@graphicsAlgorithm" flowNode="8OKwRhdf7LcVHFdX7PdB7D9MZ6VsW8vu">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="226" height="74" x="497" y="359" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
         <link businessObjects="8OKwRhdf7LcVHFdX7PdB7D9MZ6VsW8vu"/>
-        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.9" incomingConnections="//@testElements.0/@diagram/@connections.7 //@testElements.0/@diagram/@connections.8"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.7" incomingConnections="//@testElements.0/@diagram/@connections.5 //@testElements.0/@diagram/@connections.6"/>
         <children xsi:type="pi:ContainerShape" visible="true">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="212" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="SousParcoursConnexion"/>
         </children>
@@ -312,6 +560,156 @@
             <points x="112" y="58"/>
             <points x="112" y="72"/>
           </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.14/@children.0/@graphicsAlgorithm" flowNode="vYheeXW8mzolcnJE2GKbWt8kr4aN1AIb">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="831" y="226" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="vYheeXW8mzolcnJE2GKbWt8kr4aN1AIb"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.9" incomingConnections="//@testElements.0/@diagram/@connections.8"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="174" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Entrer les données&#xD;&#xA;d'inscriptions"/>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.15/@children.0/@graphicsAlgorithm" flowNode="3bV0bD5urOVa7FQ9QJmEhAG48AU6nb7N">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="1049" y="736" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="3bV0bD5urOVa7FQ9QJmEhAG48AU6nb7N"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.11" incomingConnections="//@testElements.0/@diagram/@connections.10"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="174" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Effectuer/Demander une&#xD;&#xA;transaction"/>
+        </children>
+      </children>
+      <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.16/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.16/@children.1/@graphicsAlgorithm" flowNode="JDZ75uhnDuMbUC2Wx97dRxgOr8SUc30q">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="1122" y="989" style="//@testElements.0/@diagram/@styles.2">
+          <points x="20"/>
+          <points x="40" y="20"/>
+          <points x="20" y="40"/>
+          <points y="20"/>
+          <points x="20"/>
+        </graphicsAlgorithm>
+        <link businessObjects="JDZ75uhnDuMbUC2Wx97dRxgOr8SUc30q"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.12 //@testElements.0/@diagram/@connections.21" incomingConnections="//@testElements.0/@diagram/@connections.11"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
+            <points x="12" y="12"/>
+            <points x="28" y="28"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
+            <points x="12" y="28"/>
+            <points x="28" y="12"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="fHW8Ke9hNmhdjhDCSvdxEvtbGbLaC0gV" labelShape="//@testElements.0/@diagram/@children.18">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="4" transparency="0.0" width="31" height="31" x="1303" y="994" style="//@testElements.0/@diagram/@styles.3"/>
+        <link businessObjects="fHW8Ke9hNmhdjhDCSvdxEvtbGbLaC0gV"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.12"/>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.18/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.17">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="246" height="42" x="1243" y="1030"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="246" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Echec de la transaction"/>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.19/@children.0/@graphicsAlgorithm" flowNode="hCbIF2Z4nXl5mzR5aHciJYf6PEtbByF8">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="774" y="827" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="hCbIF2Z4nXl5mzR5aHciJYf6PEtbByF8"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.14" incomingConnections="//@testElements.0/@diagram/@connections.13"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="174" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Créer un compte en&#xD;&#xA;banque"/>
+        </children>
+      </children>
+      <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.20/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.20/@children.1/@graphicsAlgorithm" flowNode="joK0nVCq5JjQ4y6LFRvGwZz82uZijUQc">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="856" y="966" style="//@testElements.0/@diagram/@styles.2">
+          <points x="20"/>
+          <points x="40" y="20"/>
+          <points x="20" y="40"/>
+          <points y="20"/>
+          <points x="20"/>
+        </graphicsAlgorithm>
+        <link businessObjects="joK0nVCq5JjQ4y6LFRvGwZz82uZijUQc"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.15 //@testElements.0/@diagram/@connections.20" incomingConnections="//@testElements.0/@diagram/@connections.14"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
+            <points x="12" y="12"/>
+            <points x="28" y="28"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
+            <points x="12" y="28"/>
+            <points x="28" y="12"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="ryvilHk51kejec3puAAufjH4ckbIl0U2" labelShape="//@testElements.0/@diagram/@children.22">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="4" transparency="0.0" width="31" height="31" x="957" y="971" style="//@testElements.0/@diagram/@styles.3"/>
+        <link businessObjects="ryvilHk51kejec3puAAufjH4ckbIl0U2"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.15"/>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.22/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.21">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="150" height="63" x="927" y="996"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="150" height="63" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Echec création de&#xD;&#xA;compte bancaire"/>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.23/@children.0/@graphicsAlgorithm" flowNode="wtMbrjdjio2OccSI01rLzTSMSnrluhQZ">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="329" y="800" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="wtMbrjdjio2OccSI01rLzTSMSnrluhQZ"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.17" incomingConnections="//@testElements.0/@diagram/@connections.16"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="174" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Modifier les données&#xD;&#xA;personnelles"/>
+        </children>
+      </children>
+      <children xsi:type="yest:ChoicePointShape" visible="true" active="true" extras="//@testElements.0/@diagram/@children.24/@children.0/@graphicsAlgorithm //@testElements.0/@diagram/@children.24/@children.1/@graphicsAlgorithm" flowNode="vRLGmTkaEMlUBjzq4wpHvXgQNmjxUHAF">
+        <graphicsAlgorithm xsi:type="al:Polygon" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2" lineStyle="UNSPECIFIED" width="40" height="40" x="402" y="960" style="//@testElements.0/@diagram/@styles.2">
+          <points x="20"/>
+          <points x="40" y="20"/>
+          <points x="20" y="40"/>
+          <points y="20"/>
+          <points x="20"/>
+        </graphicsAlgorithm>
+        <link businessObjects="vRLGmTkaEMlUBjzq4wpHvXgQNmjxUHAF"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.18 //@testElements.0/@diagram/@connections.19" incomingConnections="//@testElements.0/@diagram/@connections.17"/>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
+            <points x="12" y="12"/>
+            <points x="28" y="28"/>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.5" lineWidth="2">
+            <points x="12" y="28"/>
+            <points x="28" y="12"/>
+          </graphicsAlgorithm>
+        </children>
+      </children>
+      <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="r1IeeyVqnSA0nxMzaITI5z6nQazfYP50" labelShape="//@testElements.0/@diagram/@children.26">
+        <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@testElements.0/@diagram/@colors.6" lineWidth="4" transparency="0.0" width="31" height="31" x="559" y="965" style="//@testElements.0/@diagram/@styles.3"/>
+        <link businessObjects="r1IeeyVqnSA0nxMzaITI5z6nQazfYP50"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.18"/>
+      </children>
+      <children xsi:type="yest:LabelShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.26/@children.0/@graphicsAlgorithm" labelled="//@testElements.0/@diagram/@children.25">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="42" x="528" y="1001"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="100" height="42" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Echec de la&#xD;&#xA;modification"/>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.27/@children.0/@graphicsAlgorithm" flowNode="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="516" y="1288" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="BLVAVgvA4oYBGxBGDejR0qCKgdCFv1fu"/>
+        <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@testElements.0/@diagram/@connections.19 //@testElements.0/@diagram/@connections.20 //@testElements.0/@diagram/@connections.21 //@testElements.0/@diagram/@connections.23"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="174" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Se déconnecter"/>
+        </children>
+      </children>
+      <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@testElements.0/@diagram/@children.28/@children.0/@graphicsAlgorithm" flowNode="2QlF4bBPduiCFhvDb0JjTEQ0qlt2Ha7A">
+        <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="188" height="56" x="-116" y="745" style="//@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+        <link businessObjects="2QlF4bBPduiCFhvDb0JjTEQ0qlt2Ha7A"/>
+        <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@testElements.0/@diagram/@connections.23" incomingConnections="//@testElements.0/@diagram/@connections.22"/>
+        <children xsi:type="pi:ContainerShape" visible="true">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="174" height="42" x="7" y="7" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Commenter une&#xD;&#xA;transaction"/>
         </children>
       </children>
       <styles id="shape-bg-green-id">
@@ -558,32 +956,7 @@
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" x="-4" y="-14" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ok"/>
         </connectionDecorators>
       </connections>
-      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.13/@anchors.0" end="//@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="kvpJv8V955kh7b5uLiRnZdMlRtKyV53I">
-        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="kvpJv8V955kh7b5uLiRnZdMlRtKyV53I"/>
-        <connectionDecorators visible="true" locationRelative="true" location="1.0">
-          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
-            <points x="-6" y="3"/>
-            <points x="1"/>
-            <points x="-6" y="-3"/>
-          </graphicsAlgorithm>
-        </connectionDecorators>
-      </connections>
-      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.3/@anchors.0" end="//@testElements.0/@diagram/@children.13/@anchors.0" sequenceFlow="7s82CouA0mJFKVoL0UQhTJ3t9LX6oayw">
-        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
-        <link businessObjects="7s82CouA0mJFKVoL0UQhTJ3t9LX6oayw"/>
-        <connectionDecorators visible="true" locationRelative="true" location="1.0">
-          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
-            <points x="-6" y="3"/>
-            <points x="1"/>
-            <points x="-6" y="-3"/>
-          </graphicsAlgorithm>
-        </connectionDecorators>
-        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.6/@connectionDecorators.1/@graphicsAlgorithm">
-          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="114" height="24" x="-51" y="3" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Créer un compte"/>
-        </connectionDecorators>
-      </connections>
-      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.3/@anchors.0" end="//@testElements.0/@diagram/@children.14/@anchors.0" sequenceFlow="LF3SsuMXeRsATEvhKo6NHfjn9GfrAm24">
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.3/@anchors.0" end="//@testElements.0/@diagram/@children.13/@anchors.0" sequenceFlow="LF3SsuMXeRsATEvhKo6NHfjn9GfrAm24">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
         <link businessObjects="LF3SsuMXeRsATEvhKo6NHfjn9GfrAm24"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
@@ -593,11 +966,11 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
-        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.7/@connectionDecorators.1/@graphicsAlgorithm">
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.5/@connectionDecorators.1/@graphicsAlgorithm">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="173" height="24" x="-176" y="-8" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Se connecter directement"/>
         </connectionDecorators>
       </connections>
-      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.14/@anchors.0" sequenceFlow="rMPpqFvz6FZrWf6YxVVTKFAFCmQBcd3H">
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.4/@anchors.0" end="//@testElements.0/@diagram/@children.13/@anchors.0" sequenceFlow="rMPpqFvz6FZrWf6YxVVTKFAFCmQBcd3H">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
         <link businessObjects="rMPpqFvz6FZrWf6YxVVTKFAFCmQBcd3H"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
@@ -607,13 +980,228 @@
             <points x="-6" y="-3"/>
           </graphicsAlgorithm>
         </connectionDecorators>
-        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.8/@connectionDecorators.1/@graphicsAlgorithm">
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.6/@connectionDecorators.1/@graphicsAlgorithm">
           <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ok"/>
         </connectionDecorators>
       </connections>
-      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.14/@anchors.0" end="//@testElements.0/@diagram/@children.7/@anchors.0" sequenceFlow="4k2s5rhz65vr3DkaIkmk9MKMe0gFb0rv">
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.13/@anchors.0" end="//@testElements.0/@diagram/@children.7/@anchors.0" sequenceFlow="4k2s5rhz65vr3DkaIkmk9MKMe0gFb0rv">
         <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
         <link businessObjects="4k2s5rhz65vr3DkaIkmk9MKMe0gFb0rv"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.3/@anchors.0" end="//@testElements.0/@diagram/@children.14/@anchors.0" sequenceFlow="QQxiDDJTzPRb3DwBcyQkVPPQwHAFD5Bb">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="QQxiDDJTzPRb3DwBcyQkVPPQwHAFD5Bb"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.14/@anchors.0" end="//@testElements.0/@diagram/@children.4/@anchors.0" sequenceFlow="JJlF3STlTndSoYLNft5Xsu5S920yJgwW">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="JJlF3STlTndSoYLNft5Xsu5S920yJgwW"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.15/@anchors.0" sequenceFlow="3cG2qyCnHsDLtGrnfyNC0RSW1CKxHkUp">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="3cG2qyCnHsDLtGrnfyNC0RSW1CKxHkUp"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.10/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="317" height="24" x="-24" y="-52" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Intention d'effectuer/demander une transaction"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.15/@anchors.0" end="//@testElements.0/@diagram/@children.16/@anchors.0" sequenceFlow="E9OQ8EtEI4oSv2Llnl3Vgip9fb265AcE">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="E9OQ8EtEI4oSv2Llnl3Vgip9fb265AcE"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.11/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="217" height="24" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Informations de transaction ok ?"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.16/@anchors.0" end="//@testElements.0/@diagram/@children.17/@anchors.0" sequenceFlow="sl1zo6TCRNXoJLrTgg5ujpuPK4Bp87uF">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sl1zo6TCRNXoJLrTgg5ujpuPK4Bp87uF"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.12/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" x="-15" y="-2" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ko"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.19/@anchors.0" sequenceFlow="yeZ6T2CvGD4lQnUWuPqo2RMrkJ6Mfap3">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="yeZ6T2CvGD4lQnUWuPqo2RMrkJ6Mfap3"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.13/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="196" height="24" x="10" y="-12" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Intention de créer un compte"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.19/@anchors.0" end="//@testElements.0/@diagram/@children.20/@anchors.0" sequenceFlow="ovbhcgfkZUuTuiEkoQBBTCmN2gbQBbLd">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="ovbhcgfkZUuTuiEkoQBBTCmN2gbQBbLd"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.14/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="167" height="24" x="10" y="-12" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="données du compte ok ?"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.20/@anchors.0" end="//@testElements.0/@diagram/@children.21/@anchors.0" sequenceFlow="Y0YTfPR16azIicTLhJgAHZuK7TE6WM0a">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="Y0YTfPR16azIicTLhJgAHZuK7TE6WM0a"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.15/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" x="-30" y="-2" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ko"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.23/@anchors.0" sequenceFlow="dTO4vERSMKci30CtxGdNFhY9BgWH4fWn">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="dTO4vERSMKci30CtxGdNFhY9BgWH4fWn"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.16/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="227" height="24" x="-243" y="-13" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Intention de modifier les données"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.23/@anchors.0" end="//@testElements.0/@diagram/@children.24/@anchors.0" sequenceFlow="kUoC7wtjGIihRnI0CrwctfDmTL6VSOum">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="kUoC7wtjGIihRnI0CrwctfDmTL6VSOum"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.17/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="180" height="24" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Données personnelles ok ?"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.24/@anchors.0" end="//@testElements.0/@diagram/@children.25/@anchors.0" sequenceFlow="vIevnARWjbqRV3GbdnYHvN7i4QRRpUDK">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="vIevnARWjbqRV3GbdnYHvN7i4QRRpUDK"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.18/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" x="-16" y="-2" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ko"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.24/@anchors.0" end="//@testElements.0/@diagram/@children.27/@anchors.0" sequenceFlow="Y2QWoAF9Y3aIgonZws95f26XRvvEbjOc">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="Y2QWoAF9Y3aIgonZws95f26XRvvEbjOc"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.19/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" x="-36" y="-14" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ok"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.20/@anchors.0" end="//@testElements.0/@diagram/@children.27/@anchors.0" sequenceFlow="ELZJdrmMEfJgBRBYLW0uWWKIRvXcVmNI">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="ELZJdrmMEfJgBRBYLW0uWWKIRvXcVmNI"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.20/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" x="8" y="-14" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ok"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.16/@anchors.0" end="//@testElements.0/@diagram/@children.27/@anchors.0" sequenceFlow="ZgUd8BgG7l0VCOjNECGHLr24e0ZNH57I">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="ZgUd8BgG7l0VCOjNECGHLr24e0ZNH57I"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.21/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="44" height="24" x="16" y="-12" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="ok"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.8/@anchors.0" end="//@testElements.0/@diagram/@children.28/@anchors.0" sequenceFlow="FBaYJHvfQc49Znjh83uMEtP0yEwmCoND">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="FBaYJHvfQc49Znjh83uMEtP0yEwmCoND"/>
+        <connectionDecorators visible="true" locationRelative="true" location="1.0">
+          <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+            <points x="-6" y="3"/>
+            <points x="1"/>
+            <points x="-6" y="-3"/>
+          </graphicsAlgorithm>
+        </connectionDecorators>
+        <connectionDecorators xsi:type="yest:SequenceFlowConnectionDecorator" visible="true" active="true" locationRelative="true" location="0.5" text="//@testElements.0/@diagram/@connections.22/@connectionDecorators.1/@graphicsAlgorithm">
+          <graphicsAlgorithm xsi:type="al:Text" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="269" height="24" x="-162" y="-40" font="//@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Intention de commenter une transaction"/>
+        </connectionDecorators>
+      </connections>
+      <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@testElements.0/@diagram/@children.28/@anchors.0" end="//@testElements.0/@diagram/@children.27/@anchors.0" sequenceFlow="sRbRkLtoQxAlq9pqdfofOwDdrNBsSJVV">
+        <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+        <link businessObjects="sRbRkLtoQxAlq9pqdfofOwDdrNBsSJVV"/>
         <connectionDecorators visible="true" locationRelative="true" location="1.0">
           <graphicsAlgorithm xsi:type="al:Polygon" background="//@testElements.0/@diagram/@colors.3" foreground="//@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
             <points x="-6" y="3"/>
@@ -871,7 +1459,6 @@
     <flowElements xsi:type="yest:StartPoint" id="zzhrl3kLcZwjy17o88iOmydpOSUvQzlN" name="début" outgoings="uLJJ49KxDrBAa5gq3nkdwGf4dFOBtp3e"/>
     <flowElements xsi:type="yest:Task" id="O1zuPRIEsBs4wiae8U0P1qAv9jQuvvCN" name="Saisir le nom d'utilisateur" incomings="uLJJ49KxDrBAa5gq3nkdwGf4dFOBtp3e" outgoings="q6hl1YaNluuLsot58oATkP0g9OjJ1NKI">
       <table>
-        <columns xsi:type="yest:DataColumn" id="KV8xceWZCZtqpYBp7AMk3wPRcMo0u2uz" data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo"/>
         <columns xsi:type="yest:DataColumn" id="YJUj2Awwb0ZF79XTQtxL0cJzR3IbFTLT" data="0qH1JEx8pQn2hHZwdC5YEtGsLg2T6Obt"/>
         <columns xsi:type="yest:OperationColumn" id="oeINfFtcoxaaIvEH26mGGlPIJUuThy4K"/>
         <columns xsi:type="yest:CriterionColumn" id="ADk1lZPDINa1Dn5lVEEfSzQL2cu9jwU6" criterionType="#objective"/>
@@ -884,17 +1471,11 @@
           <cells key="ADk1lZPDINa1Dn5lVEEfSzQL2cu9jwU6">
             <value xsi:type="yest:StringCell" value="Pseudo valide"/>
           </cells>
-          <cells key="KV8xceWZCZtqpYBp7AMk3wPRcMo0u2uz">
-            <value xsi:type="yest:DataValueCell" value="eApxvpuam6igrKFVvXnrB5r5soP6X6xO"/>
-          </cells>
           <cells key="YJUj2Awwb0ZF79XTQtxL0cJzR3IbFTLT">
             <value xsi:type="yest:DataValueCell" value="PL2oJxMxfWCTllfHwFjhw989ologc12g"/>
           </cells>
         </decisions>
         <decisions id="IW1j8v2jt77GKAyJo8xAlYGjrRtgGZNn">
-          <cells key="KV8xceWZCZtqpYBp7AMk3wPRcMo0u2uz">
-            <value xsi:type="yest:DataValueCell" value="8iWM6v0mUaC8tiu5hjiFoG0MdPb63ATO"/>
-          </cells>
           <cells key="oeINfFtcoxaaIvEH26mGGlPIJUuThy4K">
             <value xsi:type="yest:OperationCell">
               <operations reference="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
@@ -912,8 +1493,7 @@
     <flowElements xsi:type="yest:SequenceFlow" id="uLJJ49KxDrBAa5gq3nkdwGf4dFOBtp3e" name="" target="O1zuPRIEsBs4wiae8U0P1qAv9jQuvvCN" source="zzhrl3kLcZwjy17o88iOmydpOSUvQzlN"/>
     <flowElements xsi:type="yest:Task" id="jZkffeHCZ1sVYTZrLOQxgutxqLLlHYEZ" name="Saisir le mot de passe" incomings="q6hl1YaNluuLsot58oATkP0g9OjJ1NKI" outgoings="QYAAY23vP62pzC3VpcUZOVpEP3LbhWxS">
       <table>
-        <columns xsi:type="yest:DataColumn" id="07qwSKrNcMuGilLVTwTkfp6Jxch3iBPt" data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa"/>
-        <columns xsi:type="yest:DataColumn" id="S483lssU0htUdpcjS3lGbsdCRGhN6dxU" data="0qH1JEx8pQn2hHZwdC5YEtGsLg2T6Obt"/>
+        <columns xsi:type="yest:DataColumn" id="aqyM5KmHzSZpHkaaQtdTnSGqrjSaxgp6" data="8RjOrxXev9L5hGfKOJCsam7QQLBFb0eX"/>
         <columns xsi:type="yest:OperationColumn" id="1y4yMtvEM2034AEzV40wffxEEPFcCFAV"/>
         <columns xsi:type="yest:CriterionColumn" id="QDFFOwpcAasmkOnkh24Pm4CtINqo3AJB" criterionType="#objective"/>
         <decisions id="fViog6SaMHsxIK5CHvsb9NV8Wxh7fR1V">
@@ -925,17 +1505,11 @@
           <cells key="QDFFOwpcAasmkOnkh24Pm4CtINqo3AJB">
             <value xsi:type="yest:StringCell" value="Mot de passe valide"/>
           </cells>
-          <cells key="07qwSKrNcMuGilLVTwTkfp6Jxch3iBPt">
-            <value xsi:type="yest:DataValueCell" value="kWbF9Ft88MBhXoz5KC45mz4hfhbFUC9k"/>
-          </cells>
-          <cells key="S483lssU0htUdpcjS3lGbsdCRGhN6dxU">
-            <value xsi:type="yest:DataValueCell" value="PL2oJxMxfWCTllfHwFjhw989ologc12g"/>
+          <cells key="aqyM5KmHzSZpHkaaQtdTnSGqrjSaxgp6">
+            <value xsi:type="yest:DataValueCell" value="4OmQBdI02xpEdjjKv3yrKSj7jcJqJlx0"/>
           </cells>
         </decisions>
         <decisions id="j3o1ZXMn5tR8yfKsJ4W3n24KSMdTf6bd">
-          <cells key="07qwSKrNcMuGilLVTwTkfp6Jxch3iBPt">
-            <value xsi:type="yest:DataValueCell" value="BbvOcseLNDDJHUrA0dfjyGT8m1EurJSe"/>
-          </cells>
           <cells key="1y4yMtvEM2034AEzV40wffxEEPFcCFAV">
             <value xsi:type="yest:OperationCell">
               <operations reference="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
@@ -944,24 +1518,8 @@
           <cells key="QDFFOwpcAasmkOnkh24Pm4CtINqo3AJB">
             <value xsi:type="yest:StringCell" value="Mot de passe invalide"/>
           </cells>
-          <cells key="S483lssU0htUdpcjS3lGbsdCRGhN6dxU">
-            <value xsi:type="yest:DataValueCell" value="uNuq1nYSKxP5gPyf8SzTUrlIdpPvwKcf"/>
-          </cells>
-        </decisions>
-        <decisions id="9QC52pF7K3Vb0NSjRUyTnrZUR6lVPP3b">
-          <cells key="07qwSKrNcMuGilLVTwTkfp6Jxch3iBPt">
-            <value xsi:type="yest:DataValueCell" value="BbvOcseLNDDJHUrA0dfjyGT8m1EurJSe"/>
-          </cells>
-          <cells key="S483lssU0htUdpcjS3lGbsdCRGhN6dxU">
-            <value xsi:type="yest:DataValueCell" value="PL2oJxMxfWCTllfHwFjhw989ologc12g"/>
-          </cells>
-          <cells key="1y4yMtvEM2034AEzV40wffxEEPFcCFAV">
-            <value xsi:type="yest:OperationCell">
-              <operations reference="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
-            </value>
-          </cells>
-          <cells key="QDFFOwpcAasmkOnkh24Pm4CtINqo3AJB">
-            <value xsi:type="yest:StringCell" value="Mot de passe invalide"/>
+          <cells key="aqyM5KmHzSZpHkaaQtdTnSGqrjSaxgp6">
+            <value xsi:type="yest:DataValueCell" value="5AnyQsQdunLh4FnNPT5pAXwEP0Z8idtl"/>
           </cells>
         </decisions>
       </table>
@@ -1173,26 +1731,20 @@
   <testElements xsi:type="yest:TestOperation" id="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Saisir le nom d'utilisateur "/>
-        <stepElements xsi:type="yest:StepField" id="ZPLvYfRaqPDnwRKmMIDNfz6izhycx9wG" data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo"/>
+        <stepElements xsi:type="yest:StepText" content="Saisir le nom d'utilisateur"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="Le nom d'utilisateur "/>
-        <stepElements xsi:type="yest:StepField" id="BlM7sDuIS5NGN09uLtAV8xDsQip2l0Tg" data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo"/>
-        <stepElements xsi:type="yest:StepText" content=" est saisi"/>
+        <stepElements xsi:type="yest:StepText" content="Le nom d'utilisateur est saisi"/>
       </expectedResult>
     </highLevelStep>
   </testElements>
   <testElements xsi:type="yest:TestOperation" id="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf">
     <highLevelStep>
       <action>
-        <stepElements xsi:type="yest:StepText" content="Saisir le mot de passe "/>
-        <stepElements xsi:type="yest:StepField" id="jMyTroVt34A0gpybUVjXx4eJOCljJNCx" data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa"/>
+        <stepElements xsi:type="yest:StepText" content="Saisir le mot de passe"/>
       </action>
       <expectedResult>
-        <stepElements xsi:type="yest:StepText" content="Le mot de passe "/>
-        <stepElements xsi:type="yest:StepField" id="ADJd0Pn4pHO166Ur6Vl5L1gUPBm67UpQ" data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa"/>
-        <stepElements xsi:type="yest:StepText" content=" est saisi"/>
+        <stepElements xsi:type="yest:StepText" content="Le mot de passe  est saisi"/>
       </expectedResult>
     </highLevelStep>
   </testElements>
@@ -1226,46 +1778,168 @@
       </expectedResult>
     </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestScenario" id="RlhAoj7mgEhGNlyCuSmqKGEnbZQVS5Jr" name="Inscription valide-Pseudo Invalide-Mot de passe invalide" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
-    <testActions id="YiyIInTlm5qrxhcUk6zOOdrdKd3xZLdb" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
-    <testActions id="J5EFQl3EeIrL7Y1LRy85B0LZ5PLjLRVx" operation="J4IuLkZckhfE6iHXcOFRsFXnFGYqLRrd"/>
-    <testActions id="EahUr98qrLJ0cj3JKh81l7AcGDSOaMlm" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk">
-      <stepFieldValues referencedStepField="ZPLvYfRaqPDnwRKmMIDNfz6izhycx9wG" value="8iWM6v0mUaC8tiu5hjiFoG0MdPb63ATO"/>
-      <stepFieldValues referencedStepField="BlM7sDuIS5NGN09uLtAV8xDsQip2l0Tg" value="8iWM6v0mUaC8tiu5hjiFoG0MdPb63ATO"/>
-    </testActions>
-    <testActions id="TuB9JprQUNCzGB6SmcAf9Kcui1RW5rxZ" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf">
-      <stepFieldValues referencedStepField="jMyTroVt34A0gpybUVjXx4eJOCljJNCx" value="BbvOcseLNDDJHUrA0dfjyGT8m1EurJSe"/>
-      <stepFieldValues referencedStepField="ADJd0Pn4pHO166Ur6Vl5L1gUPBm67UpQ" value="BbvOcseLNDDJHUrA0dfjyGT8m1EurJSe"/>
-    </testActions>
-    <testActions id="8lqphXyaKtJex5iBI0R2jScVikyxVjVZ" operation="2ghBo0NfgRhzPNn9TGGphsTQcI1vQ41F"/>
+  <testElements xsi:type="yest:TestOperation" id="Gcv4KAEs1Vx3Es7EQmPtzg8atfFWgYou">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Créer un compte en banque en saisissant les informations "/>
+        <stepElements xsi:type="yest:StepField" id="aAAJO3EYEY3GSKkxPUQ9xqNoGFmLmhrs" data="3XLFTzFFVl3L2iaMs4WZGLSDVMsADx0T"/>
+        <stepElements xsi:type="yest:StepText" content="                                                                           - Saisir un nom de compte                                                                                  - Saisir un numéro de routage                                                                                                 - Saisir un numéro de compte"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Le compte bancaire est créé"/>
+      </expectedResult>
+    </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestScenario" id="OpaTAx0u6DsmGdyghk2ZfMuSIbgc6lVH" name="Pseudo valide-Mot de passe valide" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
-    <testActions id="I5V6prnFccdCEmEbq66J9OXV9rtvVwX2" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
-    <testActions id="CsELnoWHDkVxyYLgHKoYS7yN4VZG25DD" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk">
-      <stepFieldValues referencedStepField="ZPLvYfRaqPDnwRKmMIDNfz6izhycx9wG" value="eApxvpuam6igrKFVvXnrB5r5soP6X6xO"/>
-      <stepFieldValues referencedStepField="BlM7sDuIS5NGN09uLtAV8xDsQip2l0Tg" value="eApxvpuam6igrKFVvXnrB5r5soP6X6xO"/>
-    </testActions>
-    <testActions id="zX6WbIKXSSYxB5OVUzfubzoAjddfLqJO" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf">
-      <stepFieldValues referencedStepField="jMyTroVt34A0gpybUVjXx4eJOCljJNCx" value="kWbF9Ft88MBhXoz5KC45mz4hfhbFUC9k"/>
-      <stepFieldValues referencedStepField="ADJd0Pn4pHO166Ur6Vl5L1gUPBm67UpQ" value="kWbF9Ft88MBhXoz5KC45mz4hfhbFUC9k"/>
-    </testActions>
-    <testActions id="4QTAWLMLyAcwn2qqn8QJiTsXP8NpLSv5" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+  <testElements xsi:type="yest:TestOperation" id="7WlOJsEUj8cMGtLv3SEsYkcvHYjGjc7z">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Créer un compte en banque en saisissant les informations "/>
+        <stepElements xsi:type="yest:StepField" id="r6pw2c4SDj9lGfJRO03LcQcnKxcByDS3" data="3XLFTzFFVl3L2iaMs4WZGLSDVMsADx0T"/>
+        <stepElements xsi:type="yest:StepText" content="                                                                           - Saisir un nom de compte                                                                                  - Saisir un numéro de routage                                                                                                 - Saisir un numéro de compte"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Le compte bancaire n'est pas créé"/>
+      </expectedResult>
+    </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestScenario" id="FpbmqPveEcyqlcdrPRSPo6J9VH0Ztnwc" name="Inscription invalide" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
-    <testActions id="Wt7prDvpgYVJTMLLJwNztfQMtnc4vfjr" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
-    <testActions id="e7H8JPCupBKMCYSO76w5rTKh5gGT36Np" operation="J4IuLkZckhfE6iHXcOFRsFXnFGYqLRrd"/>
+  <testElements xsi:type="yest:TestOperation" id="LH9ZyP7IEBg9DXZnLyIoIrgFNAAKUhex">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Modifier les données personnelles "/>
+        <stepElements xsi:type="yest:StepField" id="THOQDV5zefg96Vydbcukd4rJCxpKXqSd" data="1078jdHoxa9r46QgD1CEOzGNsEacFBwY"/>
+        <stepElements xsi:type="yest:StepText" content="                                                                                    - Saisir un prénom                                                                                     - Saisir un nom de famille                                                                                     - Saisir une adresse mail                                                                                     - Saisir un numéro de téléphone"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Le profil est modifié"/>
+      </expectedResult>
+    </highLevelStep>
   </testElements>
-  <testElements xsi:type="yest:TestScenario" id="QS8nzezoS2vb1faSF9nNE0yuJyfeHiJn" name="Pseudo valide-Mot de passe invalide" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
-    <testActions id="qijT5seTFMe3ksW7p3BDhnkpfusBas9K" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
-    <testActions id="HJSngnKhX0QXfssL8tus1lziVQpmFoMp" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk">
-      <stepFieldValues referencedStepField="ZPLvYfRaqPDnwRKmMIDNfz6izhycx9wG" value="eApxvpuam6igrKFVvXnrB5r5soP6X6xO"/>
-      <stepFieldValues referencedStepField="BlM7sDuIS5NGN09uLtAV8xDsQip2l0Tg" value="eApxvpuam6igrKFVvXnrB5r5soP6X6xO"/>
+  <testElements xsi:type="yest:TestOperation" id="AIEPRYUAR9TiJEYZvu9b4KxLJOzSNmoc">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Modifier les données personnelles "/>
+        <stepElements xsi:type="yest:StepField" id="WSF6ethtgeBehVdKoglnwdEi1AcRdt5c" data="1078jdHoxa9r46QgD1CEOzGNsEacFBwY"/>
+        <stepElements xsi:type="yest:StepText" content="                                                                                    - Saisir un prénom                                                                                     - Saisir un nom de famille                                                                                     - Saisir une adresse mail                                                                                     - Saisir un numéro de téléphone"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="Le profil n'est pas modifié"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="ZOFvTNpeiUWDrSDVxl3ts8L3LfB1tiSV">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Effectuer/Demander une transaction                                                                                      Saisir les informations de transactions "/>
+        <stepElements xsi:type="yest:StepField" id="xJ0qUDtFOJAQaedLUyXQ4UKx3wG2PSUR" data="0vh4DvfjOhkIK8m0Dg7y3btIJqstIEZA"/>
+        <stepElements xsi:type="yest:StepText" content="                            - Selectionner un contact                                         - Entrer un montant                                          - Entrer une description"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="La transaction n'est pas effectuée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="SA1374Prki4SjHjkdfk8FEryOd4QzzQ8">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Effectuer/Demander une transaction                                                                                      Saisir les informations de transactions "/>
+        <stepElements xsi:type="yest:StepField" id="tJIq8IhJyAPAx47OWnhw2v1kOWYSHFzE" data="0vh4DvfjOhkIK8m0Dg7y3btIJqstIEZA"/>
+        <stepElements xsi:type="yest:StepText" content="                            - Selectionner un contact                                         - Entrer un montant                                          - Entrer une description"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="La transaction est effectuée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="F3OeNvQtaUP5vIHDib2oCjCiSETc4YTc">
+    <highLevelStep>
+      <action>
+        <stepElements xsi:type="yest:StepText" content="Commenter une transaction "/>
+        <stepElements xsi:type="yest:StepField" id="iih7e26RABT5zoXWkZTmLEO01ZrGN4jO" data="r2KRaOlyCpkHMqoSAom7W3JtONgzu8Ju"/>
+      </action>
+      <expectedResult>
+        <stepElements xsi:type="yest:StepText" content="La transaction est commentée"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="YEtlLrv9iyUwczrU91SBZNTSoDEaxQJY" name="Inscription valide-Pseudo Invalide-Mot de passe invalide" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="QRwqnKX1QxJcsiLQVPt2i32ZprGzdYfB" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="v63onbzhv3dkdm7kMNShEGCCtn6ExwfG" operation="J4IuLkZckhfE6iHXcOFRsFXnFGYqLRrd"/>
+    <testActions id="o5DLgFrWMQm6Mh9bbYPEASvgGFdS7hOd" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="GtQfjCAVzizSQCyThMDygf4e5SrNPzjt" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="qpfpyzmztJQolDqY0Z3lCOrg69toLLa8" operation="2ghBo0NfgRhzPNn9TGGphsTQcI1vQ41F"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="DYmyvFglu0wnEHZWGYqZzUnHK5WnCshD" name="Pseudo valide-Mot de passe valide-Informations de compte bancaire valides" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="tuhBUdJ7L1DMUr313jEOhoerHkCmxqx0" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="xSjnZZmikdkPKNMm6sI4lm4YiCWXchzq" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="cOsmCiRWYsssb5poxLXHCCuYAyQD5H5D" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="p0wiLxJaQdNrNbLYaR0QSWNnScvruB7b" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+    <testActions id="sKgZi6XTQMsxaXXpMSSehYvSbI4WcgBl" operation="Gcv4KAEs1Vx3Es7EQmPtzg8atfFWgYou">
+      <stepFieldValues referencedStepField="aAAJO3EYEY3GSKkxPUQ9xqNoGFmLmhrs" value="hWaFZJ3R7Zwp03YOCqjIqGMukQLyzXa8"/>
     </testActions>
-    <testActions id="5xtvfol17SHqWSsmQT2dMpGjClRqXjQr" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf">
-      <stepFieldValues referencedStepField="jMyTroVt34A0gpybUVjXx4eJOCljJNCx" value="BbvOcseLNDDJHUrA0dfjyGT8m1EurJSe"/>
-      <stepFieldValues referencedStepField="ADJd0Pn4pHO166Ur6Vl5L1gUPBm67UpQ" value="BbvOcseLNDDJHUrA0dfjyGT8m1EurJSe"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="WExWmXGA0Q5h7eW5tM3r9TzD73QsW2Ii" name="Pseudo valide-Mot de passe invalide" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="grQBfdfwSX4NAF5ZYlNVFKbG4Y4paN5N" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="PP1NXGa30GkcfDdVTeJuc6mi7ks8yCWI" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="J4zHV3NROBhS5eftdxQpsaz8Lx3yDGNv" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="EOl4faBVdL9KDgbC0ZZjTiGn9Ou3SLCQ" operation="2ghBo0NfgRhzPNn9TGGphsTQcI1vQ41F"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="bumpz8UFjhxrnMOGL80kVpC8A0tXfXuF" name="Pseudo valide-Mot de passe valide-Informations de transaction valides" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="s3eOWf4al3SY3wzI526DUxzVUgls9KRI" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="2zOzKyurSMGPtwlG4UKiARcrAJvqUYH8" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="GkMVepwHfSaHjELlfedjo2gAbq3OUyLo" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="vatVpWJ94t3yaudjcSiIEOxqYYBzl5ub" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+    <testActions id="Dx8IBNFCJ8jSZCpyuzxfQDeX2qi1vuqb" operation="SA1374Prki4SjHjkdfk8FEryOd4QzzQ8">
+      <stepFieldValues referencedStepField="tJIq8IhJyAPAx47OWnhw2v1kOWYSHFzE" value="wWERoqhdwFPDKxzqm57TT9bBLsrbDG2s"/>
     </testActions>
-    <testActions id="OTiVjGuBfGVFFoktldcBS21P63qANx6o" operation="2ghBo0NfgRhzPNn9TGGphsTQcI1vQ41F"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="Oo8DZfTC1KMn2it2y5HS2qJ4zXR1kQk1" name="Pseudo valide-Mot de passe valide-Données personnelles valides" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="Ge5HvxRHIG1KqX4rvsuOVY1XrPlbspA0" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="Z6onBOPOGse8CvE8xA9c6g0EGRBqjriu" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="TBOZG8xgvcz7LVGb1EZFUmOMVzLHwm03" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="z4eRpkZS72ViNQoYWIoojZYR3zMzkvPQ" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+    <testActions id="BO9yFKb6gUcUS5Dla8ujQ3jRhXTUzlDe" operation="LH9ZyP7IEBg9DXZnLyIoIrgFNAAKUhex">
+      <stepFieldValues referencedStepField="THOQDV5zefg96Vydbcukd4rJCxpKXqSd" value="c63mExqfWcmp06cmV6GWvbxzFf5LBwQ4"/>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="U64S3wXFkQA1jEp88YgjR7JQhRG3kdEa" name="Inscription invalide" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="xVFhS0DsKwo7BIThg9DlvhTqQkJNsODy" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="ebHwDBInwHqRqOAXz1aC8ecnQV6JA0qq" operation="J4IuLkZckhfE6iHXcOFRsFXnFGYqLRrd"/>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="uoAaJSwcCpYi6so1pvwClBCV3FyOL4UC" name="Pseudo valide-Mot de passe valide-Commenter une transaction" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="xKn8pB8PLT8b9zOMn6vdeFyf1ArmaikC" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="iou6QODyBE4TTwilejhc2PySopGpitBe" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="cBcvL41LDstlbs2S2aUNnXbcqYVFmilL" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="AbkohyB1bcmI1cGXfEJhRlakVGzhhgwD" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+    <testActions id="Rxdu4VAqObgmISfGMVW40pVzfeI932P0" operation="F3OeNvQtaUP5vIHDib2oCjCiSETc4YTc">
+      <stepFieldValues referencedStepField="iih7e26RABT5zoXWkZTmLEO01ZrGN4jO" value="vxVcVfAxQSqNAUkeLKQUb4DuI5SyePCu"/>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="dwgYFZ2ukR4KBwx06zTThnGCKO3dLyoU" name="Pseudo valide-Mot de passe valide-Informations de compte bancaire invalides" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="x0uCkCbY4rLjdYayjUlI3EVObcJ5ghaR" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="pNKitxQlSHagyJ3ZnXdY8CDcZLW9RTw0" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="Q96lB6HIJPUvroOn5vRFPqDVIuHh2DMj" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="gCXUO7rPMqiSGldRSaimwyrjJA4mucaF" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+    <testActions id="FX6jHzOidN5St2gtIqUhCT4NAxf4HzRg" operation="7WlOJsEUj8cMGtLv3SEsYkcvHYjGjc7z">
+      <stepFieldValues referencedStepField="r6pw2c4SDj9lGfJRO03LcQcnKxcByDS3" value="rVOesgL4dbWJUSEFxXPIFceVKUE2ejzE"/>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="CrnqPzhn3IULFCOGuGmm7shjx86PHfZo" name="Pseudo valide-Mot de passe valide-Informations de transaction invalides" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="824Hl7QZMRCYmyAraWuXUWz52O99EQ4o" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="BdmPwXoMfrtUyQ8ivKlDVNiIfo1RiRaw" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="RKWoH43EcVFmtDdbQoZsprPzsRSFhrXz" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="igEoUhHletOU6kxK8nH7doYcRi5zZscC" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+    <testActions id="J4fPxMUZdd1ZRIFni4gFdktqikk5ov5R" operation="ZOFvTNpeiUWDrSDVxl3ts8L3LfB1tiSV">
+      <stepFieldValues referencedStepField="xJ0qUDtFOJAQaedLUyXQ4UKx3wG2PSUR" value="BEmndVIZkfN9XLnsRqth4j5z6Qjcurz8"/>
+    </testActions>
+  </testElements>
+  <testElements xsi:type="yest:TestScenario" id="70tnF5dAyFSsvCOv1PwIhwWeQUjfZCO5" name="Pseudo valide-Mot de passe valide-Données personnelles invalides" associatedWorkflow="XAAfsEWSa4k8bkqAzV88eYBNRk72FAl4">
+    <testActions id="7tpes2YZk5VN2sM1WSyhni4fDtQscnQy" operation="JykUwE5qdK0AdwpYRFw7tJYov8Nt9CsM"/>
+    <testActions id="dv8sFTjwCAmaxPIfsHJnBKBb3CIS4jPQ" operation="fib1itlMs2AQrkkJnzDfa5TVEfHpzJJk"/>
+    <testActions id="Qccj09itYhJMISU5v8uIu138weQpyCbW" operation="hmgQGXDVbjx9FxZ6i25LRWSotxwy7zqf"/>
+    <testActions id="eKxBCAy0ypHjjq2mVGa5bbd8mw0pgVIt" operation="5xkDnicf1CRjWKynBQXlbwoeMpsthDIh"/>
+    <testActions id="IFlXVqbQh4WxdWwinSvaOWqdSBABmzis" operation="AIEPRYUAR9TiJEYZvu9b4KxLJOzSNmoc">
+      <stepFieldValues referencedStepField="WSF6ethtgeBehVdKoglnwdEi1AcRdt5c" value="teV1dyCBRZFq6GMGsEw7WjrWhWotF09f"/>
+    </testActions>
   </testElements>
   <designDataDictionary id="TlV0YuffUPfuEs3uULgd1Ky5BNBI7ElT" name="#designDataDictionary">
     <datas xsi:type="yest:DesignData" name="PossessionCompte" id="0qH1JEx8pQn2hHZwdC5YEtGsLg2T6Obt">
@@ -1280,7 +1954,6 @@
         </definition>
       </values>
     </datas>
-    <datas xsi:type="yest:DesignData" name="ValiditéCompte" id="f7p2Hqnit3KyE7epblyEyWaaSDs2udpP"/>
     <datas xsi:type="yest:DesignData" name="Identification" id="8RjOrxXev9L5hGfKOJCsam7QQLBFb0eX">
       <values id="4OmQBdI02xpEdjjKv3yrKSj7jcJqJlx0">
         <definition>
@@ -1305,229 +1978,82 @@
         </definition>
       </values>
     </datas>
+    <datas xsi:type="yest:DesignData" name="InformationsTransaction" id="0vh4DvfjOhkIK8m0Dg7y3btIJqstIEZA">
+      <values id="wWERoqhdwFPDKxzqm57TT9bBLsrbDG2s">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="valides"/>
+        </definition>
+      </values>
+      <values id="BEmndVIZkfN9XLnsRqth4j5z6Qjcurz8">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="invalides"/>
+        </definition>
+      </values>
+    </datas>
+    <datas xsi:type="yest:DesignData" name="InformationsCompteBanque" id="3XLFTzFFVl3L2iaMs4WZGLSDVMsADx0T">
+      <values id="hWaFZJ3R7Zwp03YOCqjIqGMukQLyzXa8">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="valides"/>
+        </definition>
+      </values>
+      <values id="rVOesgL4dbWJUSEFxXPIFceVKUE2ejzE">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="invalides"/>
+        </definition>
+      </values>
+    </datas>
+    <datas xsi:type="yest:DesignData" name="DonnéesPersonnelles" id="1078jdHoxa9r46QgD1CEOzGNsEacFBwY">
+      <values id="c63mExqfWcmp06cmV6GWvbxzFf5LBwQ4">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="valides"/>
+        </definition>
+      </values>
+      <values id="teV1dyCBRZFq6GMGsEw7WjrWhWotF09f">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="invalides"/>
+        </definition>
+      </values>
+    </datas>
+    <datas xsi:type="yest:DesignData" name="Intention" id="NkBzjWruWXGaDvm9MlTqnDjBl3YYzhHo">
+      <values id="FNMa3jjsTeqUEQrnSRfWS2uXIt4tD4he" defined="true">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="ModifierProfil"/>
+        </definition>
+      </values>
+      <values id="UYPpAhxwt9qnnWIKvdxu6q6rWSgCvNxx" defined="true">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="CreerCompteBancaire"/>
+        </definition>
+      </values>
+      <values id="U5NY2villvBIQz6Aq7OER0OHWfpietiq">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="Demander/Payer"/>
+        </definition>
+      </values>
+      <values id="Hj1EAvfPNGvvRfoNynRtEoo6OB5Qv8ix">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="Commenter"/>
+        </definition>
+      </values>
+    </datas>
+    <datas xsi:type="yest:DesignData" name="CommentaireTransaction" id="r2KRaOlyCpkHMqoSAom7W3JtONgzu8Ju">
+      <values id="vxVcVfAxQSqNAUkeLKQUb4DuI5SyePCu">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="valide"/>
+        </definition>
+      </values>
+    </datas>
     <subCategories xsi:type="yest:DesignDataCategory" id="AVVDJ5FMnZCi6WZKGxpO3Omx6IS5E5Kp" name="Profil">
-      <datas xsi:type="yest:DesignData" name="Nom" id="HMV6PSS04ZmOdq75aw1XXSA0nUUBHyAY">
-        <values id="af3iaLygzTXk5odBfUXlFvbxyE9T8Chg">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Nom valide"/>
-          </definition>
-        </values>
-        <values id="l7eHWA6E0UhdF6Khc4bQfkFOdKLvM5tl">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Nom invalide"/>
-          </definition>
-        </values>
-        <values id="1PKUYvArydHsizdi86TOsH8Ow644uexW">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Demonteaux"/>
-          </definition>
-        </values>
-        <values id="UBDvXJ2kMpY7XMq50TgAhSKGDgsrFdLc">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Gallone"/>
-          </definition>
-        </values>
-        <values id="qutJE2gwgzg4yeB9pGTiCr0FOCK9IxE8">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Becker"/>
-          </definition>
-        </values>
-        <values id="8pCQn8EitwT6BuxOLUtfEnGOttwpUZQB">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Serrandour"/>
-          </definition>
-        </values>
-        <values id="VkOYG1MuRfYZAh5H0YeJcE418y5l1FUQ">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Taïga"/>
-          </definition>
-        </values>
-      </datas>
-      <datas xsi:type="yest:DesignData" name="Prénom" id="wycH7NpJTuNejFycRGNMkrCHSFT4gZIo">
-        <values id="xc7wnkQHTwubT7Gio3mJRXp9bkeYLi80" defined="true">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Prénom valide"/>
-          </definition>
-        </values>
-        <values id="ByFn2Qbyk4XIFeTFXR0DEbcoCx1XcrlX" defined="true">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Prénom invalide"/>
-          </definition>
-        </values>
-        <values id="Mf8EeGJ7zJtVT719ToEGrhtO7Ug6ZZ0n">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Guillaume"/>
-          </definition>
-        </values>
-        <values id="2LXxVFa4ydkpoDKAnTCsc35QavjFKPK3">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Nathan"/>
-          </definition>
-        </values>
-        <values id="fT1M0FCXLU0rz303qRLeYYI5CPfXbvHR">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Devon"/>
-          </definition>
-        </values>
-        <values id="UczE2zOTekSjbSmk03qYb73Vy94G23H4">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Jeremie"/>
-          </definition>
-        </values>
-        <values id="nAbDXk6BnpjvFmqWe20pdcSWnTFEx8cH">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Remi"/>
-          </definition>
-        </values>
-      </datas>
       <datas xsi:type="yest:DesignData" name="MotDePasse" id="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa">
         <values id="kWbF9Ft88MBhXoz5KC45mz4hfhbFUC9k" defined="true">
           <definition>
             <operand xsi:type="yest:TextLiteral" value="Mot de passe valide"/>
           </definition>
         </values>
-        <values id="BbvOcseLNDDJHUrA0dfjyGT8m1EurJSe">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Mot de passe invalide"/>
-          </definition>
-        </values>
-        <values id="naSPcvQolbmBTHHllYXFeC8nJN2h3MlH">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="jesuistropfort"/>
-          </definition>
-        </values>
-        <values id="HQmWa0kQNd1qYQtcCIDiEjXVuuzRoFGw">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="euh...c'est ok ?"/>
-          </definition>
-        </values>
-        <values id="Ws6A75igcnl298wCwxCHJyPWvzeqVA6H">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="s3cret"/>
-          </definition>
-        </values>
-        <values id="Kco466CaI4aiqd5q8Koi5nUItC5H46tR">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="root"/>
-          </definition>
-        </values>
       </datas>
-      <datas xsi:type="yest:DesignData" name="Pseudo" id="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo">
-        <values id="eApxvpuam6igrKFVvXnrB5r5soP6X6xO">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Pseudo valide"/>
-          </definition>
-        </values>
-        <values id="8iWM6v0mUaC8tiu5hjiFoG0MdPb63ATO">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Pseudo invalide"/>
-          </definition>
-        </values>
-        <values id="DWRB7pTZ9rOl9M3UWd2cKvmf55w7QbaJ">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="GraphicalUserInterface"/>
-          </definition>
-        </values>
-        <values id="hBSuvcyzcwDLCcFEuTkMUgyeJZ4M4aKI">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="NathNath"/>
-          </definition>
-        </values>
-        <values id="tuOlshQEXrqS73O5wZETvYaJmB5Tintb">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Jessyca.Kuhic"/>
-          </definition>
-        </values>
-        <values id="gCgsQUYOKiN5PuxVbJ4BUZLlrfmQTmJv">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Lorenzo"/>
-          </definition>
-        </values>
-        <values id="lUwUTpDjcYGKA9Gt4cJV78JLRJMAPx6B">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="RemiSansFamille"/>
-          </definition>
-        </values>
-        <values id="tyM27LFKXwZul5DIbG3eGZB9XKHZ7ZJk">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Dr Taïga"/>
-          </definition>
-        </values>
-      </datas>
-      <datas xsi:type="yest:DesignData" name="ConfirmationMDP" id="w5xqCnIiCimnKAq2LY1GpTbCx2LDo275">
-        <values id="eHIGd6BXVV1iIrbGGiLq2EJrg2OyVODG">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Confirmation valide"/>
-          </definition>
-        </values>
-        <values id="L1RppoW1nClfJi4oeWPJH9DTYpRTYrlI">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="Confirmation invalide"/>
-          </definition>
-        </values>
-        <values id="2JRnYZEAN38qF1jKoWE2YGvOKqd2EdLN">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="jesuistropfort"/>
-          </definition>
-        </values>
-        <values id="zH6z7PjhfZLkkIy4ZUr3ePSvnjanwd6Q">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="c'est ok ?"/>
-          </definition>
-        </values>
-        <values id="HLNPD2E3yjvGg2NAtBz2ygfIzkn5Km6M">
-          <definition>
-            <operand xsi:type="yest:TextLiteral" value="root"/>
-          </definition>
-        </values>
-      </datas>
+      <datas xsi:type="yest:DesignData" name="Pseudo" id="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo"/>
     </subCategories>
   </designDataDictionary>
   <implementationDataDictionary id="ZXb5XKgWn9BIqbGhVYP14E5g8pP0QtO5" name="#implementationDataDictionary"/>
-  <dataSetCatalog name="#catalog" id="z66XfVkJ4aREzPC9XztPqHsxqjTvKedU">
-    <dataSetCollections name="DonnéesAuthentification" id="XUzDhWQxmn4n7fOfBINro4Al3Bk5Cdfz">
-      <dataSets name="Guillaumefaittoutbien" id="kApJZfOfdvUgtZk1WYVxgI4yDVEiVpXK">
-        <values data="HMV6PSS04ZmOdq75aw1XXSA0nUUBHyAY" value="1PKUYvArydHsizdi86TOsH8Ow644uexW"/>
-        <values data="wycH7NpJTuNejFycRGNMkrCHSFT4gZIo" value="Mf8EeGJ7zJtVT719ToEGrhtO7Ug6ZZ0n"/>
-        <values data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo" value="DWRB7pTZ9rOl9M3UWd2cKvmf55w7QbaJ"/>
-        <values data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa" value="naSPcvQolbmBTHHllYXFeC8nJN2h3MlH"/>
-        <values data="w5xqCnIiCimnKAq2LY1GpTbCx2LDo275" value="2JRnYZEAN38qF1jKoWE2YGvOKqd2EdLN"/>
-      </dataSets>
-      <dataSets name="Nathanconfirmemal" id="tfSxQOghkZpb6bNtUvOollCepSZuebeA">
-        <values data="HMV6PSS04ZmOdq75aw1XXSA0nUUBHyAY" value="UBDvXJ2kMpY7XMq50TgAhSKGDgsrFdLc"/>
-        <values data="wycH7NpJTuNejFycRGNMkrCHSFT4gZIo" value="2LXxVFa4ydkpoDKAnTCsc35QavjFKPK3"/>
-        <values data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo" value="hBSuvcyzcwDLCcFEuTkMUgyeJZ4M4aKI"/>
-        <values data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa" value="HQmWa0kQNd1qYQtcCIDiEjXVuuzRoFGw"/>
-        <values data="w5xqCnIiCimnKAq2LY1GpTbCx2LDo275" value="zH6z7PjhfZLkkIy4ZUr3ePSvnjanwd6Q"/>
-      </dataSets>
-      <dataSets name="Devonauncompte" id="k7Yr8CWIjvfqPMqd4HDkJEVerkOWxYk1">
-        <values data="HMV6PSS04ZmOdq75aw1XXSA0nUUBHyAY" value="qutJE2gwgzg4yeB9pGTiCr0FOCK9IxE8"/>
-        <values data="wycH7NpJTuNejFycRGNMkrCHSFT4gZIo" value="fT1M0FCXLU0rz303qRLeYYI5CPfXbvHR"/>
-        <values data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo" value="tuOlshQEXrqS73O5wZETvYaJmB5Tintb"/>
-        <values data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa" value="Ws6A75igcnl298wCwxCHJyPWvzeqVA6H"/>
-        <values data="w5xqCnIiCimnKAq2LY1GpTbCx2LDo275"/>
-      </dataSets>
-      <dataSets name="Lorenzomotdepassevide" id="n1b84oCFLF6ZkSImphxapjDoMmSIfA1f">
-        <values data="HMV6PSS04ZmOdq75aw1XXSA0nUUBHyAY" value="8pCQn8EitwT6BuxOLUtfEnGOttwpUZQB"/>
-        <values data="wycH7NpJTuNejFycRGNMkrCHSFT4gZIo" value="UczE2zOTekSjbSmk03qYb73Vy94G23H4"/>
-        <values data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo" value="gCgsQUYOKiN5PuxVbJ4BUZLlrfmQTmJv"/>
-        <values data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa"/>
-        <values data="w5xqCnIiCimnKAq2LY1GpTbCx2LDo275"/>
-      </dataSets>
-      <dataSets name="Remysansfamille" id="XIcOhmGXJwD1qLprBWmwQNha7xCPcsq9">
-        <values data="HMV6PSS04ZmOdq75aw1XXSA0nUUBHyAY"/>
-        <values data="wycH7NpJTuNejFycRGNMkrCHSFT4gZIo" value="nAbDXk6BnpjvFmqWe20pdcSWnTFEx8cH"/>
-        <values data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo" value="lUwUTpDjcYGKA9Gt4cJV78JLRJMAPx6B"/>
-        <values data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa" value="Kco466CaI4aiqd5q8Koi5nUItC5H46tR"/>
-        <values data="w5xqCnIiCimnKAq2LY1GpTbCx2LDo275" value="HLNPD2E3yjvGg2NAtBz2ygfIzkn5Km6M"/>
-      </dataSets>
-      <dataSets name="Taiganoname" id="ZSoI9JUuiffWZ9onjv7BCVUQgC9ngEUz">
-        <values data="HMV6PSS04ZmOdq75aw1XXSA0nUUBHyAY" value="VkOYG1MuRfYZAh5H0YeJcE418y5l1FUQ"/>
-        <values data="wycH7NpJTuNejFycRGNMkrCHSFT4gZIo"/>
-        <values data="FKPuvmvbjdMBR3en8rlG8iU3395AO6Lo" value="tyM27LFKXwZul5DIbG3eGZB9XKHZ7ZJk"/>
-        <values data="x9ZbgkN3DMZYDdLxgcgXDTiwCKS8Evpa" value="Kco466CaI4aiqd5q8Koi5nUItC5H46tR"/>
-        <values data="w5xqCnIiCimnKAq2LY1GpTbCx2LDo275" value="HLNPD2E3yjvGg2NAtBz2ygfIzkn5Km6M"/>
-      </dataSets>
-    </dataSetCollections>
-  </dataSetCatalog>
+  <dataSetCatalog name="#catalog" id="z66XfVkJ4aREzPC9XztPqHsxqjTvKedU"/>
 </yest:Project>
